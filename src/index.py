@@ -12,9 +12,8 @@ from pathlib import Path
 import pandas as pd
 from rank_bm25 import BM25Okapi
 
+from src.catalog import catalog_csv
 from src.preprocess import tokenize
-
-DATA_CSV = Path("data/tramites.csv")
 INDEX_PKL = Path("data/index.pkl")
 
 # Campos indexables con su peso (repetición de tokens).
@@ -40,13 +39,16 @@ DISPLAY_FIELDS = [
     "unidad",
     "valor",
     "otros_costos",
+    "costo_texto",
+    "es_casuistica",
     "canales_de_atencion",
     "internet_url_del_tramite",
     "url",
 ]
 
 
-def load_catalog(csv_path: Path = DATA_CSV) -> pd.DataFrame:
+def load_catalog(csv_path: Path | None = None) -> pd.DataFrame:
+    csv_path = csv_path or catalog_csv()
     df = pd.read_csv(csv_path, dtype=str, keep_default_na=False)
     print(f"Catálogo cargado: {len(df)} trámites, {len(df.columns)} columnas")
     return df
@@ -86,7 +88,7 @@ def load_index(path: Path = INDEX_PKL) -> dict:
 
 
 if __name__ == "__main__":
-    csv_path = Path(sys.argv[1]) if len(sys.argv) > 1 else DATA_CSV
+    csv_path = Path(sys.argv[1]) if len(sys.argv) > 1 else catalog_csv()
     df = load_catalog(csv_path)
     index = build_index(df)
     save_index(index)

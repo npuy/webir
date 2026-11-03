@@ -16,6 +16,7 @@ from pathlib import Path
 import pandas as pd
 from elasticsearch import Elasticsearch, helpers
 
+from src.catalog import catalog_csv, costo_flags, doc_key
 from src.synonyms import SEARCH_ANALYZER, syn_filter_def
 
 ES_URL = "http://localhost:9200"
@@ -31,6 +32,7 @@ TEXT_FIELDS = [
     "otros_datos_de_interes",
     "internet_como_se_hace",
     "persona_como_se_hace",
+    "costo_texto",
 ]
 
 # Campos de texto que además sirven como faceta (keyword).
@@ -112,6 +114,8 @@ INDEX_SETTINGS = {
             **{f: {"type": "keyword"} for f in KEYWORD_FIELDS},
             "canales_de_atencion": {"type": "keyword"},
             "tiene_costo": {"type": "boolean"},
+            "costo_desconocido": {"type": "boolean"},
+            "es_casuistica": {"type": "boolean"},
             "otros_costos": {
                 "type": "text",
                 "analyzer": "spanish_custom",
@@ -132,7 +136,8 @@ def row_to_doc(row: pd.Series) -> dict:
     doc["canales_de_atencion"] = [
         c.strip() for c in canales.split(",") if c.strip()
     ]
-    doc["tiene_costo"] = row.get("tiene_costo", "") == "1"
+    doc["tiene_costo"], doc["costo_desconocido"] = costo_flags(row)
+    doc["es_casuistica"] = row.get("es_casuistica", "") == "si"
     return doc
 
 
@@ -150,12 +155,12 @@ def main() -> None:
         es.indices.create(index=INDEX, body=INDEX_SETTINGS)
         print(f"Índice '{INDEX}' creado con analyzer español")
 
-    df = pd.read_csv(DATA_CSV, dtype=str, keep_default_na=False)
-    print(f"Ingestando {len(df)} trámites...")
+    df = pd.read_csv(catalog_csv(), dtype=str, keep_default_na=False)
+    print(f"Ingestando {len(df)} trámites desde {catalog_csv()}...")
 
     t0 = time.time()
     actions = (
-        {"_index": INDEX, "_id": row["id"], "_source": row_to_doc(row)}
+        {"_index": INDEX, "_id": doc_key(row), "_source": row_to_doc(row)}
         for _, row in df.iterrows()
     )
     success, errors = helpers.bulk(es, actions, raise_on_error=False)

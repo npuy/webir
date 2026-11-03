@@ -82,6 +82,9 @@ def _filters(organismo: str | None, canal: str | None,
         filters.append({"term": {"canales_de_atencion": canal}})
     if gratuito is not None:
         filters.append({"term": {"tiene_costo": not gratuito}})
+        if gratuito:
+            # los trámites sin dato de costo no son "gratuitos"
+            filters.append({"term": {"costo_desconocido": False}})
     return filters
 
 
@@ -89,18 +92,46 @@ def _hit_to_result(h: dict, score: float | None = None) -> dict:
     src = h["_source"]
     return {
         "id": src["id"],
+        "es_casuistica": src.get("es_casuistica", False),
         "nombre": src["nombre_tramite"],
         "organismo": src["institucion_nombre"],
         "organismo_padre": src["institucion_padre_organizacional_nombre"],
         "descripcion": src["ques_es"],
         "highlight": (h.get("highlight", {}).get("ques_es") or [None])[0],
         "tiene_costo": src["tiene_costo"],
-        "costo": f"{src.get('valor', '')} {src.get('unidad', '')}".strip(),
+        "costo_desconocido": src.get("costo_desconocido", False),
+        "costo": f"{src.get('valor', '')} {src.get('unidad', '')}".strip()
+                if src.get("valor", "").strip() else "",
+        "costo_texto": src.get("costo_texto", ""),
         "otros_costos": src.get("otros_costos", ""),
         "canales": src["canales_de_atencion"],
         "url": src["url"],
         "url_tramite": src.get("internet_url_del_tramite", ""),
         "score": round(score if score is not None else h["_score"], 4),
+    }
+
+
+def _query_con_demote_casuistica(q: str) -> dict:
+    """multi_match con las páginas índice de casuística demoradas.
+
+    Son listas de sub-casos, no trámites: suman ruido arriba del ranking
+    por tener nombres genéricos ("Solicitud de pasaporte - Renovación").
+    """
+    return {
+        "boosting": {
+            "positive": {
+                "multi_match": {
+                    "query": q,
+                    "fields": SEARCH_FIELDS,
+                    "type": "best_fields",
+                    "operator": "or",
+                    "fuzziness": "AUTO",
+                    "prefix_length": 2,
+                }
+            },
+            "negative": {"term": {"es_casuistica": True}},
+            "negative_boost": 0.15,
+        }
     }
 
 
@@ -112,16 +143,7 @@ def es_search(q: str, top_k: int, organismo: str | None, canal: str | None,
         "size": top_k,
         "query": {
             "bool": {
-                "must": {
-                    "multi_match": {
-                        "query": q,
-                        "fields": SEARCH_FIELDS,
-                        "type": "best_fields",
-                        "operator": "or",
-                        "fuzziness": "AUTO",
-                        "prefix_length": 2,
-                    }
-                },
+                "must": _query_con_demote_casuistica(q),
                 "filter": filters,
             }
         },
@@ -195,10 +217,7 @@ def hybrid_search(q: str, top_k: int, organismo: str | None,
     bm25_res = es.search(index=ES_INDEX, body={
         "size": fetch_k,
         "query": {"bool": {
-            "must": {"multi_match": {
-                "query": q, "fields": SEARCH_FIELDS, "type": "best_fields",
-                "operator": "or", "fuzziness": "AUTO", "prefix_length": 2,
-            }},
+            "must": _query_con_demote_casuistica(q),
             "filter": filters,
         }},
         "highlight": {
@@ -271,6 +290,10 @@ def bm25_search(q: str, top_k: int, organismo: str | None, canal: str | None,
     from src.search import search
 
     results = search(local_index, q, top_k=top_k * 4)
+    for doc in results:  # mismo demote que en ES: índices de casos abajo
+        if doc.get("es_casuistica") == "si":
+            doc["score"] *= 0.15
+    results.sort(key=lambda d: d["score"], reverse=True)
     hits = []
     for doc in results:
         canales = [c.strip() for c in doc.get("canales_de_atencion", "").split(",") if c.strip()]
@@ -278,18 +301,26 @@ def bm25_search(q: str, top_k: int, organismo: str | None, canal: str | None,
             continue
         if canal and canal not in canales:
             continue
-        tiene_costo = doc.get("tiene_costo") == "1"
-        if gratuito is not None and tiene_costo == gratuito:
-            continue
+        tc = doc.get("tiene_costo", "")
+        tiene_costo = tc in ("si", "1")
+        desconocido = tc not in ("si", "1", "no")
+        if gratuito is not None:
+            es_gratis = not tiene_costo and not desconocido
+            if (gratuito and not es_gratis) or (not gratuito and not tiene_costo):
+                continue
         hits.append({
             "id": doc["id"],
+            "es_casuistica": doc.get("es_casuistica") == "si",
             "nombre": doc["nombre_tramite"],
             "organismo": doc["institucion_nombre"],
             "organismo_padre": doc["institucion_padre_organizacional_nombre"],
             "descripcion": doc["ques_es"],
             "highlight": None,
             "tiene_costo": tiene_costo,
-            "costo": f"{doc.get('valor', '')} {doc.get('unidad', '')}".strip(),
+            "costo_desconocido": desconocido,
+            "costo": f"{doc.get('valor', '')} {doc.get('unidad', '')}".strip()
+                    if doc.get("valor", "").strip() else "",
+            "costo_texto": doc.get("costo_texto", ""),
             "otros_costos": doc.get("otros_costos", ""),
             "canales": canales,
             "url": doc["url"],

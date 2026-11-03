@@ -37,14 +37,20 @@ function ResultCard({ doc }) {
         <p className="mt-2 text-sm text-gray-700 line-clamp-3">{doc.descripcion}</p>
       )}
       <div className="mt-3 flex flex-wrap items-center gap-2">
+        {doc.es_casuistica && <Badge color="gray">Página de casos</Badge>}
         {doc.tiene_costo
           ? <Badge color="amber">{doc.costo ? `Costo: ${doc.costo}` : 'Con costo'}</Badge>
-          : <Badge color="green">Gratuito / no informado</Badge>}
+          : doc.costo_desconocido
+            ? <Badge color="gray">Costo no informado</Badge>
+            : <Badge color="green">Gratuito</Badge>}
         {doc.canales.map((c) => (
           <Badge key={c} color="blue">{CANALES.find((x) => x.value === c)?.label ?? c}</Badge>
         ))}
         <span className="ml-auto text-xs text-gray-400">score {doc.score}</span>
       </div>
+      {doc.costo_texto && (
+        <p className="mt-2 text-xs text-gray-500 line-clamp-2">{doc.costo_texto}</p>
+      )}
       {doc.url_tramite && doc.url_tramite.startsWith('http') && (
         <a href={doc.url_tramite} target="_blank" rel="noreferrer"
            className="mt-2 inline-block text-sm font-medium text-emerald-700 hover:underline">

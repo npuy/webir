@@ -9,14 +9,14 @@ Uso:
 
 import sys
 import time
-from pathlib import Path
 
 import pandas as pd
 from elasticsearch import Elasticsearch, helpers
 
+from src.catalog import catalog_csv, doc_key
+
 ES_URL = "http://localhost:9200"
 INDEX = "tramites"
-DATA_CSV = Path("data/tramites.csv")
 MODEL_NAME = "intfloat/multilingual-e5-small"
 DIMS = 384
 
@@ -69,7 +69,7 @@ def main() -> None:
     )
     print(f"Mapping actualizado: campo 'embedding' ({DIMS} dims, cosine)")
 
-    df = pd.read_csv(DATA_CSV, dtype=str, keep_default_na=False)
+    df = pd.read_csv(catalog_csv(), dtype=str, keep_default_na=False)
     texts = [doc_text(row) for _, row in df.iterrows()]
 
     t0 = time.time()
@@ -80,7 +80,7 @@ def main() -> None:
         {
             "_op_type": "update",
             "_index": INDEX,
-            "_id": row["id"],
+            "_id": doc_key(row),
             "doc": {"embedding": vec},
         }
         for (_, row), vec in zip(df.iterrows(), vectors)

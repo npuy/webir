@@ -41,12 +41,16 @@ def format_result(rank: int, doc: dict) -> str:
     if doc.get("ques_es"):
         snippet = textwrap.shorten(doc["ques_es"], width=220, placeholder="…")
         lines.append(f"    {snippet}")
-    if doc.get("tiene_costo") == "1":
+    tc = doc.get("tiene_costo", "")
+    if tc in ("si", "1"):
         costo = f"{doc.get('valor', '')} {doc.get('unidad', '')}".strip()
+        costo = costo or doc.get("costo_texto", "") or "ver detalle"
         extra = textwrap.shorten(doc.get("otros_costos", ""), 120, placeholder="…")
-        lines.append(f"    Costo: {costo or 'ver detalle'}  {extra}")
+        lines.append(f"    Costo: {costo}  {extra}")
+    elif tc == "no":
+        lines.append("    Costo: gratuito")
     else:
-        lines.append("    Costo: gratuito / no informado")
+        lines.append("    Costo: no informado")
     if doc.get("canales_de_atencion"):
         lines.append(f"    Canales: {doc['canales_de_atencion']}")
     lines.append(f"    URL: {doc['url']}")
