@@ -63,6 +63,21 @@ El CSV se descarga de
 https://catalogodatos.gub.uy/dataset/agesic-guia-de-tramites
 (recurso "Tramites y servicios", formato CSV) → `data/tramites.csv`.
 
+## Enriquecimiento de datos (scraping)
+
+El export de AGESIC pierde datos que sí están en la web (p. ej.
+distingue "sin costo" de "sin dato"). Se enriquece scrapeando las
+fichas de gub.uy — ver `doc/calidad-datos.md` para el análisis
+completo de calidad antes/después:
+
+```bash
+.venv/bin/python -m src.scrape_pages   # baja data/pages/ (~23 min, resumible)
+.venv/bin/python -m src.parse_pages    # -> data/tramites_enriquecido.csv
+```
+
+Si existe `tramites_enriquecido.csv`, `src/index.py`, `src/es_index.py`
+y `src/embeddings.py` lo usan automáticamente (ver `src/catalog.py`).
+
 ## Uso
 
 ```bash
