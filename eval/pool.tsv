@@ -1,0 +1,1022 @@
+qid	consulta	doc_id	nombre	organismo	n_sistemas
+q01	solicitud de pasaporte	6889-4	Solicitud de pasaporte - Renovación - Ciudadanos legales	Dirección Nacional de Identificación Civil	8
+q01	solicitud de pasaporte	4678	Solicitud de pasaporte común y renovación de cédula desde el exterior	Dirección de Asuntos Consulares	7
+q01	solicitud de pasaporte	6889-1	Solicitud de pasaporte - Renovación - Personas nacionales uruguayas	Dirección Nacional de Identificación Civil	7
+q01	solicitud de pasaporte	606-4	Solicitud de pasaporte - Primera vez - Ciudadanos legales	Dirección Nacional de Identificación Civil	8
+q01	solicitud de pasaporte	6889-2	Solicitud de pasaporte - Renovación - Personas ciudadanas naturales uruguayas	Dirección Nacional de Identificación Civil	8
+q01	solicitud de pasaporte	6889-3	Solicitud de pasaporte - Renovación - Nietos o nietas de personas uruguayas	Dirección Nacional de Identificación Civil	8
+q01	solicitud de pasaporte	606-1	Solicitud de pasaporte - Primera vez - Personas Ciudadanas Naturales Uruguayas	Dirección Nacional de Identificación Civil	8
+q01	solicitud de pasaporte	3978	Expedición y renovación de pasaportes diplomáticos y oficiales	Dirección de Asuntos Consulares	5
+q01	solicitud de pasaporte	606-2	Solicitud de pasaporte - Primera vez - Personas Nacionales Uruguayas (Ley Nº 16.021)	Dirección Nacional de Identificación Civil	8
+q01	solicitud de pasaporte	606-3	Solicitud de pasaporte - Primera vez - Nietos O Nietas De Personas Uruguayas (Ley Nº 19.362)	Dirección Nacional de Identificación Civil	8
+q01	solicitud de pasaporte	606	Solicitud de pasaporte - Primera vez	Dirección Nacional de Identificación Civil	2
+q01	solicitud de pasaporte	6889	Solicitud de pasaporte - Renovación	Dirección Nacional de Identificación Civil	2
+q01	solicitud de pasaporte	6221	Licencia de conducir por primera vez - Lavalleja	Intendencia	1
+q02	certificado de antecedentes judiciales	307	Certificado de antecedentes judiciales	Dirección Nacional de Policía Científica	8
+q02	certificado de antecedentes judiciales	5654	Certificado de antecedentes judiciales según Ley N°19791	Dirección Nacional de Policía Científica	8
+q02	certificado de antecedentes judiciales	4427	Certificado de antecedentes de conductor - Paysandú	Intendencia	8
+q02	certificado de antecedentes judiciales	6944	Certificado de antecedentes de conductor - Canelones	Dirección General de Transito	8
+q02	certificado de antecedentes judiciales	4935	Solicitud de certificado de antecedentes del vehículo - Rivera	Intendencia	5
+q02	certificado de antecedentes judiciales	7857	Licencia de conducir – Certificado de Antecedentes - Maldonado	Intendencia	8
+q02	certificado de antecedentes judiciales	3960	Expedición de certificado de antecedentes de licencia de conducir - San José	Intendencia	6
+q02	certificado de antecedentes judiciales	7420	Oficios judiciales	Banco de Previsión Social	4
+q02	certificado de antecedentes judiciales	2555	Solicitud de antecedentes laborales	Dirección General de Secretaría	1
+q02	certificado de antecedentes judiciales	1861	Pago de sentencias judiciales	Dirección General de Secretaría	2
+q02	certificado de antecedentes judiciales	5823	Ingreso de oficios judiciales	Dirección Nacional del Registro de Estado Civil	3
+q02	certificado de antecedentes judiciales	18	Certificados de vigencia de Asociaciones Civiles y Fundaciones	Dirección Nacional de Asuntos Constitucionales y Legales	1
+q02	certificado de antecedentes judiciales	5673	Expedición de antecedentes de licencia de conducir - Rivera	Intendencia	1
+q02	certificado de antecedentes judiciales	19	Certificados de información referida al registro nacional de comercio	Dirección General de Registros	1
+q02	certificado de antecedentes judiciales	4560	Consulta de documentos judiciales históricos	Archivo General de la Nación	4
+q02	certificado de antecedentes judiciales	478	Certificado de residencia. (derecho al sufragio sin obtener la ciudadanía legal)	Corte Electoral	4
+q02	certificado de antecedentes judiciales	261-4	Permiso para menor de edad - Menor con autorización judicial de viaje	Dirección Nacional de Migración	1
+q02	certificado de antecedentes judiciales	5278	Hoja de identidad provisoria	Dirección Nacional de Migración	1
+q02	certificado de antecedentes judiciales	2635	Certificado de residencia para presentación ante autoridades nacionales o extranjeras	Jefaturas Departamentales	1
+q02	certificado de antecedentes judiciales	5088	Certificado de Titularidad	Dirección Nacional de Identificación Civil	1
+q02	certificado de antecedentes judiciales	1441	Apostilla y/o legalización de documentos públicos uruguayos o extranjeros para que produzcan efectos en el exterior o en la República	Dirección de Asuntos Consulares	1
+q02	certificado de antecedentes judiciales	4527	Legalización de títulos y documentos estudiantiles firmados por autoridades nacionales	Dirección Nacional de Educación	1
+q02	certificado de antecedentes judiciales	1968	Constancia para legalización de documentos firmados por profesionales de la salud registrados y habilitados por el MSP	Direccion General del Sistema Nacional de Salud	1
+q02	certificado de antecedentes judiciales	1967	Constancias de registro y habilitación de profesionales de la salud	Direccion General del Sistema Nacional de Salud	1
+q03	registro de marcas	118	Registro de marcas	Dirección Nacional de la Propiedad Industrial y Registro de Software	8
+q03	registro de marcas	6656	Oposición al registro de marcas	Dirección Nacional de la Propiedad Industrial y Registro de Software	8
+q03	registro de marcas	2366	Registro de homologación de marca y modelos de chasis	Dirección Nacional de Transporte	7
+q03	registro de marcas	2379	Registro de homologación de marca y modelo de carrocerías	Dirección Nacional de Transporte	7
+q03	registro de marcas	4074	Renovación de marca	Dirección Nacional de la Propiedad Industrial y Registro de Software	4
+q03	registro de marcas	6658	Desistimiento de marca	Dirección Nacional de la Propiedad Industrial y Registro de Software	2
+q03	registro de marcas	6663	Renuncia de marca	Dirección Nacional de la Propiedad Industrial y Registro de Software	5
+q03	registro de marcas	6439	Solicitud de título de marca	Dirección Nacional de la Propiedad Industrial y Registro de Software	8
+q03	registro de marcas	6471	Solicitudes de certificados por marca	Dirección Nacional de la Propiedad Industrial y Registro de Software	6
+q03	registro de marcas	6653	Licencia de uso de marca	Dirección Nacional de la Propiedad Industrial y Registro de Software	4
+q03	registro de marcas	6655	Prenda marcaria	Dirección Nacional de la Propiedad Industrial y Registro de Software	6
+q03	registro de marcas	2362-7	Alta de empresas ante la Dirección Nacional de Transporte (DNT) - Empresa Representante de Marca:	Dirección Nacional de Transporte	1
+q03	registro de marcas	4467	Extensión de registros de productos veterinarios	Dirección General de Servicios Ganaderos	1
+q03	registro de marcas	5603	Registro de comercio expendedor de productos veterinarios	Dirección General de Servicios Ganaderos	1
+q03	registro de marcas	6659	Acciones de cancelación de marca	Dirección Nacional de la Propiedad Industrial y Registro de Software	5
+q03	registro de marcas	6657	Inscripción de embargos y prohibiciones de innovar de marcas	Dirección Nacional de la Propiedad Industrial y Registro de Software	1
+q03	registro de marcas	4857	Búsqueda de antecedentes fonéticos de marcas	Dirección Nacional de la Propiedad Industrial y Registro de Software	2
+q03	registro de marcas	6661	Acción de reivindicación de marca	Dirección Nacional de la Propiedad Industrial y Registro de Software	2
+q03	registro de marcas	138-2	Solicitud de adquisición, renovación, transferencia de marca y/o señal para ganado mayor o menor - Renovación de Marca	Dirección General de Secretaría	1
+q03	registro de marcas	138-1	Solicitud de adquisición, renovación, transferencia de marca y/o señal para ganado mayor o menor - Solicitud de Nuevo Dibujo de Marca	Dirección General de Secretaría	1
+q04	asignación familiar	3582	Asignación familiar	Banco de Previsión Social	8
+q04	asignación familiar	7433	Negativo de cobro Asignaciones familiares	Banco de Previsión Social	8
+q04	asignación familiar	7339	Asignación familiar por embarazos y nacimientos múltiples	Banco de Previsión Social	8
+q04	asignación familiar	1430	Alta de asignación familiar en servicio de Retiros y Pensiones de las Fuerzas Armadas	Servicio de Retiros y Pensiones de las Fuerzas Armadas	8
+q04	asignación familiar	2764	Negativo y Baja de asignación familiar en Servicio de Retiros y Pensiones de las Fuerzas Armadas	Servicio de Retiros y Pensiones de las Fuerzas Armadas	8
+q04	asignación familiar	7453	Pensión para hijos de fallecidos por violencia doméstica	Banco de Previsión Social	5
+q04	asignación familiar	7379	Solicitar la baja de la tarjeta BPS Prestaciones	Banco de Previsión Social	5
+q04	asignación familiar	5081	Solicitud de búsqueda de familiares	Dirección Nacional de Identificación Civil	6
+q04	asignación familiar	5256	Solicitud de reunificación familiar	Dirección de Asuntos Consulares	4
+q04	asignación familiar	1443	Nexo entre uruguayos detenidos en el exterior y familiares en Uruguay	Dirección de Asuntos Consulares	2
+q04	asignación familiar	2749	Pensión - hijos menores de 18 años, hijos mayores de edad entre 18 y 21 años, e hijos mayores de 21 a 23 años - de Integrantes de las Fuerzas Armadas.	Servicio de Retiros y Pensiones de las Fuerzas Armadas	2
+q04	asignación familiar	2751	Pensión - hijos incapaces de integrantes de las FFAA	Servicio de Retiros y Pensiones de las Fuerzas Armadas	1
+q04	asignación familiar	2757	Pensión - Padres del causante -incapacitados para todo tipo de trabajo - de integrantes de las FF AA	Servicio de Retiros y Pensiones de las Fuerzas Armadas	1
+q04	asignación familiar	2750	Pensión - en representación de hijos menores - de integrantes de las Fuerzas Armadas	Servicio de Retiros y Pensiones de las Fuerzas Armadas	1
+q04	asignación familiar	2753	Pensión - concubinas de integrantes de las FFAA	Servicio de Retiros y Pensiones de las Fuerzas Armadas	1
+q04	asignación familiar	2566	Asistencia a personas privadas de libertad y familiares directos	Dirección Nacional de Protección Social	3
+q04	asignación familiar	2112	Inscripción de núcleo familiar para el Impuesto al Patrimonio.	División Recaudación y Controles Extensivos	3
+q04	asignación familiar	1843	Registro de productores familiares agropecuarios	Dirección General de Desarrollo Rural	1
+q04	asignación familiar	5342	Solicitud de ingreso al urnario	Dirección General de los Servicios de las Fuerzas Armadas	2
+q04	asignación familiar	3581	Plan de equidad	Banco de Previsión Social	2
+q04	asignación familiar	7421	Plan de equidad - Actualización de información del hogar	Banco de Previsión Social	1
+q05	inscripción de nacimiento	4622	Inscripción de nacimiento	Dirección Nacional del Registro de Estado Civil	8
+q05	inscripción de nacimiento	5089	Datos de inscripción de nacimiento 	Dirección Nacional de Identificación Civil	7
+q05	inscripción de nacimiento	6233-1	Inscripción de nacimiento - Lavalleja - Inscripción en plazo	Intendencia	8
+q05	inscripción de nacimiento	6233-2	Inscripción de nacimiento - Lavalleja - Inscripción tardía	Intendencia	8
+q05	inscripción de nacimiento	6191-1	Inscripciones en el registro civil - Paysandú - Inscripción de Nacimiento	Intendencia	7
+q05	inscripción de nacimiento	6701	Inscripción de nacimiento – Registro Civil - Maldonado	Intendencia	7
+q05	inscripción de nacimiento	6699	Inscripción tardía de nacimiento – Registro Civil - Maldonado	Intendencia	7
+q05	inscripción de nacimiento	5165	Partida de nacimiento - Florida	Intendencia	3
+q05	inscripción de nacimiento	6266	Partida de nacimiento - Lavalleja 	Intendencia	6
+q05	inscripción de nacimiento	231-1	Solicitud de partidas - Nacimiento	Dirección Nacional del Registro de Estado Civil	6
+q05	inscripción de nacimiento	6233	Inscripción de nacimiento - Lavalleja	Intendencia	1
+q05	inscripción de nacimiento	3885	Solicitud de certificado nacido vivo	Dirección General de la Salud	5
+q05	inscripción de nacimiento	6191-2	Inscripciones en el registro civil - Paysandú - Inscripción de Matrimonio	Intendencia	1
+q05	inscripción de nacimiento	4590	Inscripción adopción plena	Dirección Nacional del Registro de Estado Civil	2
+q05	inscripción de nacimiento	607-8	Documento Nacional de Identidad - Primera Vez - Personas amparadas a la Comisión de Refugiados (CORE)	Dirección Nacional de Identificación Civil	1
+q05	inscripción de nacimiento	607-7	Documento Nacional de Identidad - Primera Vez - Personas con carné de acreditación diplomática	Dirección Nacional de Identificación Civil	1
+q05	inscripción de nacimiento	5026-1	Solicitud de partidas - Rivera - Partida de Nacimiento	Intendencia	1
+q05	inscripción de nacimiento	607-3	Documento Nacional de Identidad - Primera Vez - Nietos o nietas de personas uruguayas (Ley Nº 19.362)	Dirección Nacional de Identificación Civil	1
+q06	credencial cívica primera vez	584	Credencial cívica por primera vez	Corte Electoral	8
+q06	credencial cívica primera vez	480	Traslado de Credencial Cívica	Corte Electoral	6
+q06	credencial cívica primera vez	481	Renovación de la credencial cívica	Corte Electoral	6
+q06	credencial cívica primera vez	6056	Solicitud de barométrica - Por primera vez - PAYSANDÚ	Intendencia	2
+q06	credencial cívica primera vez	6221	Licencia de conducir por primera vez - Lavalleja	Intendencia	3
+q06	credencial cívica primera vez	6531	Licencia de conducir – Primera vez - Maldonado	Intendencia	3
+q06	credencial cívica primera vez	7448	Solicitud de ayuda extraordinaria por primera vez	Banco de Previsión Social	2
+q06	credencial cívica primera vez	2246	Instituto de Asistencia Técnica: Inscripción por primera vez	Dirección Nacional de Vivienda	4
+q06	credencial cívica primera vez	4293	Libreta de conducir primera vez - Treinta y Tres	Intendencia	3
+q06	credencial cívica primera vez	6156	Permiso para cuidador de vehículos - Primera vez - Maldonado	Intendencia	4
+q06	credencial cívica primera vez	585	Carta de ciudadanía (ciudadanía legal uruguaya)	Corte Electoral	3
+q06	credencial cívica primera vez	5637	Certificación de centros de instrucción y de entrenamiento de aeronáutica civil (CIAC)	Dirección Nacional de Aviación Civil e Infraestructura Aeronáutica	1
+q06	credencial cívica primera vez	606-4	Solicitud de pasaporte - Primera vez - Ciudadanos legales	Dirección Nacional de Identificación Civil	6
+q06	credencial cívica primera vez	5433	Postulación a formación en cuidados	Secretaría Nacional de Cuidados	1
+q06	credencial cívica primera vez	6629	Solicitud de Certificado de Idoneidad en Farmacias de Primera Categoría (Farmacias Comunitarias)	Dirección General de la Salud	1
+q06	credencial cívica primera vez	606-1	Solicitud de pasaporte - Primera vez - Personas Ciudadanas Naturales Uruguayas	Dirección Nacional de Identificación Civil	2
+q06	credencial cívica primera vez	1527	Cooperativas de vivienda: Solicitud certificado de regularidad por primera vez	Dirección Nacional de Vivienda	3
+q06	credencial cívica primera vez	5548-2	Bonificación de peajes - Primera vez o renovación para persona jurídica	Dirección Nacional de Vialidad	2
+q06	credencial cívica primera vez	6410-1	Libreta de conducir – Automotores primera vez - Florida - Categoría A	Intendencia	2
+q06	credencial cívica primera vez	6410-6	Libreta de conducir – Automotores primera vez - Florida - Categoría F	Intendencia	2
+q06	credencial cívica primera vez	6410-5	Libreta de conducir – Automotores primera vez - Florida - Categoría E	Intendencia	2
+q06	credencial cívica primera vez	6410-3	Libreta de conducir – Automotores primera vez - Florida - Categoría C	Intendencia	2
+q06	credencial cívica primera vez	6410-2	Libreta de conducir – Automotores primera vez - Florida - Categoría B	Intendencia	1
+q06	credencial cívica primera vez	6410-4	Libreta de conducir – Automotores primera vez - Florida - Categoría D	Intendencia	1
+q06	credencial cívica primera vez	6410-7	Libreta de conducir – Automotores primera vez - Florida - Categoría H	Intendencia	1
+q06	credencial cívica primera vez	6191-4	Inscripciones en el registro civil - Paysandú - Inscripción de Reconocimiento	Intendencia	2
+q06	credencial cívica primera vez	6191-2	Inscripciones en el registro civil - Paysandú - Inscripción de Matrimonio	Intendencia	2
+q06	credencial cívica primera vez	6191-1	Inscripciones en el registro civil - Paysandú - Inscripción de Nacimiento	Intendencia	2
+q06	credencial cívica primera vez	1379	Duplicado de facturas - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	2
+q06	credencial cívica primera vez	6233-2	Inscripción de nacimiento - Lavalleja - Inscripción tardía	Intendencia	1
+q07	renovar cedula	129	Cédula catastral	Dirección Nacional de Catastro	1
+q07	renovar cedula	127	Cédula catastral informada	Dirección Nacional de Catastro	1
+q07	renovar cedula	5167-1	Certificado migratorio para renovación de documento de identidad - Solicitantes de Refugio	Dirección Nacional de Migración	7
+q07	renovar cedula	5167-2	Certificado migratorio para renovación de documento de identidad - Refugiados	Dirección Nacional de Migración	8
+q07	renovar cedula	5167-3	Certificado migratorio para renovación de documento de identidad - Residencia Legal D.N.M/M.RR.EE.	Dirección Nacional de Migración	8
+q07	renovar cedula	1581	Solicitar o renovar Firma digital, Certificado electrónico – Sitio	Administracion Nacional de Correos	1
+q07	renovar cedula	6210	Certificados de Energías Renovables	Dirección Nacional de Energía	2
+q07	renovar cedula	2123	Exoneración del costo del trámite de Cédula de identidad	Dirección General de Secretaría	1
+q07	renovar cedula	4678	Solicitud de pasaporte común y renovación de cédula desde el exterior	Dirección de Asuntos Consulares	5
+q07	renovar cedula	7357	Revocar o renunciar poderes registrados para prestaciones	Banco de Previsión Social	1
+q07	renovar cedula	6538-1	Documento Nacional de Identidad - Renovación - Personas ciudadanas naturales uruguayas	Dirección Nacional de Identificación Civil	3
+q07	renovar cedula	6538-8	Documento Nacional de Identidad - Renovación - Personas con carné de acreditación diplomática	Dirección Nacional de Identificación Civil	5
+q07	renovar cedula	6538-7	Documento Nacional de Identidad - Renovación - Personas nacidas en el exterior con carta de ciudadanía	Dirección Nacional de Identificación Civil	5
+q07	renovar cedula	607-1	Documento Nacional de Identidad - Primera Vez - Personas ciudadanas naturales uruguayas	Dirección Nacional de Identificación Civil	1
+q07	renovar cedula	607-7	Documento Nacional de Identidad - Primera Vez - Personas con carné de acreditación diplomática	Dirección Nacional de Identificación Civil	1
+q07	renovar cedula	6538-9	Documento Nacional de Identidad - Renovación - Personas amparadas a la Comisión de Refugiados (CORE)	Dirección Nacional de Identificación Civil	5
+q07	renovar cedula	6538-2	Documento Nacional de Identidad - Renovación - Personas nacionales uruguayas (Ley Nº 16.021)	Dirección Nacional de Identificación Civil	1
+q07	renovar cedula	6157	Permiso para cuidador de vehículos - Renovación - Maldonado	Intendencia	2
+q07	renovar cedula	481	Renovación de la credencial cívica	Corte Electoral	1
+q07	renovar cedula	7052	Modificación de aforo de padrones inmobiliarios- Canelones	Dirección General de Recursos Financieros	2
+q07	renovar cedula	5800	Desbloqueo de PIN y renovación de certificado de firma de cédula de identidad electrónica	Dirección Nacional de Identificación Civil	4
+q07	renovar cedula	7200	Modificación de registro vigente - RUNAEV	Registro Único Nacional de Alimentos, Empresas y Vehículos (RUNAEV)	1
+q07	renovar cedula	4518	"Renovación de permiso único nacional de conducir categoría ""H"" - Cerro Largo"	Intendencia	1
+q07	renovar cedula	4516	"Renovación de permiso único nacional de conducir automóviles categoría ""A"" - Cerro Largo"	Intendencia	1
+q07	renovar cedula	6538-5	Documento Nacional de Identidad - Renovación - Personas nacidas en el exterior con residencia temporaria o residencia Temporaria Mercosur	Dirección Nacional de Identificación Civil	4
+q07	renovar cedula	2198	Renovación del permiso nacional de circulación y cédula de identificación vehicular	Dirección Nacional de Transporte	2
+q07	renovar cedula	4694	Renovación libreta de conducir - Treinta y Tres	Intendencia	1
+q07	renovar cedula	6889-4	Solicitud de pasaporte - Renovación - Ciudadanos legales	Dirección Nacional de Identificación Civil	1
+q07	renovar cedula	7201	Renovación con modificación - RUNAEV	Registro Único Nacional de Alimentos, Empresas y Vehículos (RUNAEV)	1
+q07	renovar cedula	6538-6	Documento Nacional de Identidad - Renovación - Personas nacidas en el exterior con hoja de identidad provisoria	Dirección Nacional de Identificación Civil	2
+q07	renovar cedula	6538-4	Documento Nacional de Identidad - Renovación - Personas nacidas en el exterior con residencia en trámite, legal definitiva, o definitiva Mercosur	Dirección Nacional de Identificación Civil	1
+q08	sacar la libreta de conducir	4694	Renovación libreta de conducir - Treinta y Tres	Intendencia	7
+q08	sacar la libreta de conducir	6434	Cambio de categoría libreta de conducir - Florida	Intendencia	6
+q08	sacar la libreta de conducir	4293	Libreta de conducir primera vez - Treinta y Tres	Intendencia	6
+q08	sacar la libreta de conducir	6411-1	Libreta de conducir – Automotores renovación - Florida - Categoría A	Intendencia	6
+q08	sacar la libreta de conducir	6411-5	Libreta de conducir – Automotores renovación - Florida - Categoría E	Intendencia	5
+q08	sacar la libreta de conducir	4372	Libreta de conducir profesional y cambio de categoría - Treinta y Tres	Intendencia	4
+q08	sacar la libreta de conducir	6407-3	Libreta de conducir moto renovación - Florida - Categoría G3	Intendencia	2
+q08	sacar la libreta de conducir	6407-1	Libreta de conducir moto renovación - Florida - Categoría G1	Intendencia	2
+q08	sacar la libreta de conducir	6407-2	Libreta de conducir moto renovación - Florida - Categoría G2	Intendencia	1
+q08	sacar la libreta de conducir	6410-1	Libreta de conducir – Automotores primera vez - Florida - Categoría A	Intendencia	7
+q08	sacar la libreta de conducir	4827	Revalidar licencia de conducir - Rivera	Intendencia	2
+q08	sacar la libreta de conducir	5565	Duplicado de licencia de conducir - Rivera	Intendencia	1
+q08	sacar la libreta de conducir	5566	Homologación de licencia de conducir - Rivera	Intendencia	1
+q08	sacar la libreta de conducir	6219	Licencia de conducir – Renovación - Maldonado	Intendencia	2
+q08	sacar la libreta de conducir	6222	Duplicado de licencia de conducir - Lavalleja	Intendencia	1
+q08	sacar la libreta de conducir	6481	Duplicado de la licencia de conducir - Florida	Intendencia	1
+q08	sacar la libreta de conducir	6533	Licencia de conducir – Duplicado - Maldonado	Intendencia	2
+q08	sacar la libreta de conducir	4824-1	Licencia de conducir - Rivera  - Licencia para menores de edad	Intendencia	1
+q08	sacar la libreta de conducir	6410-4	Libreta de conducir – Automotores primera vez - Florida - Categoría D	Intendencia	1
+q08	sacar la libreta de conducir	6410-7	Libreta de conducir – Automotores primera vez - Florida - Categoría H	Intendencia	2
+q08	sacar la libreta de conducir	6404	Libreta de conducir moto primera vez - Florida	Intendencia	1
+q08	sacar la libreta de conducir	6410-3	Libreta de conducir – Automotores primera vez - Florida - Categoría C	Intendencia	3
+q08	sacar la libreta de conducir	6410-5	Libreta de conducir – Automotores primera vez - Florida - Categoría E	Intendencia	5
+q08	sacar la libreta de conducir	6411-7	Libreta de conducir – Automotores renovación - Florida - Categoría H	Intendencia	1
+q08	sacar la libreta de conducir	6411-6	Libreta de conducir – Automotores renovación - Florida - Categoría F	Intendencia	1
+q08	sacar la libreta de conducir	6411-4	Libreta de conducir – Automotores renovación - Florida - Categoría D	Intendencia	1
+q08	sacar la libreta de conducir	6411-3	Libreta de conducir – Automotores renovación - Florida - Categoría C	Intendencia	1
+q08	sacar la libreta de conducir	6411-2	Libreta de conducir – Automotores renovación - Florida - Categoría B	Intendencia	1
+q08	sacar la libreta de conducir	6404-1	Libreta de conducir moto primera vez - Florida - Categoría 3	Intendencia	2
+q08	sacar la libreta de conducir	3459	Renovación de licencia de conducir - San José	Intendencia	2
+q08	sacar la libreta de conducir	6531	Licencia de conducir – Primera vez - Maldonado	Intendencia	1
+q08	sacar la libreta de conducir	6404-2	Libreta de conducir moto primera vez - Florida - Categoría G1	Intendencia	1
+q09	carnet de salud	1835	Carné de salud	Administracion de los Servicios de Salud del Estado	8
+q09	carnet de salud	4756	Carné de salud - Florida	Intendencia	8
+q09	carnet de salud	6224	Carné de salud - Lavalleja	Intendencia	8
+q09	carnet de salud	5580	Denuncia sobre atención en Salud Mental	Comisión Nacional de Contralor de la Atención en Salud Mental	1
+q09	carnet de salud	7879	Relevamiento Infraestructura de Servicios de Salud	Dirección General de la Salud	1
+q09	carnet de salud	7880	Relevamiento Equipos de Servicios de Salud	Dirección General de la Salud	1
+q09	carnet de salud	4705	Tarjeta de salida	Dirección Nacional de Migración	1
+q09	carnet de salud	1877	Servicio de atención en salud para personas sordas	Secretaría Nacional de Cuidados	1
+q09	carnet de salud	1915	Cambio de dirección técnica de un servicio de salud	Dirección General de la Salud	1
+q09	carnet de salud	1967	Constancias de registro y habilitación de profesionales de la salud	Direccion General del Sistema Nacional de Salud	1
+q09	carnet de salud	2599-4	Residencia Legal - Temporaria Mercosur	Dirección Nacional de Migración	3
+q09	carnet de salud	6225	Psicofísico para conducir - Lavalleja	Intendencia	5
+q09	carnet de salud	3459	Renovación de licencia de conducir - San José	Intendencia	4
+q09	carnet de salud	2406	Registro para trabajar en obras de construcción (Ley 18.516)	Dirección Nacional de Empleo	2
+q09	carnet de salud	5151	Permiso para actividades bailables - Florida	Intendencia	1
+q09	carnet de salud	1871	Expedición de licencia de mecánico de mantenimiento de aeronaves (MMA)	Dirección Nacional de Aviación Civil e Infraestructura Aeronáutica	1
+q09	carnet de salud	2792	Ingreso a la escuela de comunicaciones del Ejército	Comando General del Ejército	1
+q09	carnet de salud	5438	Solicitud de autorización para realizar publicidad de servicios de salud	Dirección General de la Salud	4
+q09	carnet de salud	1917	Solicitud de constancia de trámite ante el Departamento de Registro de Prestadores	Dirección General de la Salud	3
+q09	carnet de salud	4884-3	Solicitud de Carné libre de tránsito para el transporte público - Rivera - Subsidio por enfermedad transitoria y jubilación por incapacidad	Intendencia	2
+q09	carnet de salud	6586	Solicitud de Habilitación, Modificación o Renovación de Habilitación de Servicios de Salud	Dirección General de la Salud	1
+q09	carnet de salud	4884	Solicitud de Carné libre de tránsito para el transporte público - Rivera	Intendencia	1
+q09	carnet de salud	4884-1	Solicitud de Carné libre de tránsito para el transporte público - Rivera -  Pensión por invalidez	Intendencia	1
+q09	carnet de salud	4884-2	Solicitud de Carné libre de tránsito para el transporte público - Rivera - Pensión por invalidez severa	Intendencia	1
+q09	carnet de salud	6177	Inscripción Bromatológica - Paysandú	Intendencia	1
+q09	carnet de salud	4085	Solicitud de permiso de actividades especiales	Instituto del Niño y Adolescente del Uruguay	1
+q09	carnet de salud	6226	Carné manipulación de alimentos - Lavalleja	Intendencia	2
+q09	carnet de salud	2702	Curso de auxiliar de enfermería adiestrado en cuidados intensivos de adultos y niños	Dirección Nacional de Sanidad de las Fuerzas Armadas	1
+q09	carnet de salud	6221	Licencia de conducir por primera vez - Lavalleja	Intendencia	1
+q09	carnet de salud	6300	Carné de actividades deportivas - Lavalleja	Intendencia	3
+q09	carnet de salud	273	Carné del deportista	Secretaría Nacional del Deporte	1
+q09	carnet de salud	1960	Solicitud de registro y habilitación de títulos y certificados de profesionales de la salud	Direccion General del Sistema Nacional de Salud	1
+q09	carnet de salud	1969	Infotítulos - Consultas sobre registro de profesionales de la salud	Direccion General del Sistema Nacional de Salud	1
+q09	carnet de salud	6192	Inscripción estudiantes medicina y enfermería para apoyo en servicios de salud	Direccion General del Sistema Nacional de Salud	1
+q09	carnet de salud	5499	Carné de manipulación de alimentos - Florida	Intendencia	2
+q09	carnet de salud	3402	Permiso laboral del adolescente	Instituto del Niño y Adolescente del Uruguay	2
+q09	carnet de salud	7820	Curso de Reanimación Cardíaca básica (RCP) y uso del desfibrilador (DEA) - Paysandú	Intendencia	1
+q09	carnet de salud	5365	Renovación de brevet deportivo	Comando General de la Armada	1
+q10	certificado de buena conducta	307	Certificado de antecedentes judiciales	Dirección Nacional de Policía Científica	8
+q10	certificado de buena conducta	5457	Solicitud de certificado de buenas prácticas para ser presentado ante autoridades sanitarias del exterior	Dirección General de la Salud	2
+q10	certificado de buena conducta	6625	Inscripción para acreditarse o reacreditarse en Buenas Prácticas de Alimentación	Dirección General de la Salud	1
+q10	certificado de buena conducta	6895	Mantenimiento o mejora de caminería rural - Canelones	Dirección General de Obras	1
+q10	certificado de buena conducta	5569	Consulta de certificado Pyme	Dirección Nacional de Artesanías, Pequeñas y Medianas Empresas	1
+q10	certificado de buena conducta	4427	Certificado de antecedentes de conductor - Paysandú	Intendencia	7
+q10	certificado de buena conducta	6944	Certificado de antecedentes de conductor - Canelones	Dirección General de Transito	7
+q10	certificado de buena conducta	5570	Consulta de Certificado de compras públicas - Mipymes	Dirección Nacional de Artesanías, Pequeñas y Medianas Empresas	1
+q10	certificado de buena conducta	6594	Cooperativas de vivienda: Consulta Certificado de Regularidad	Dirección Nacional de Vivienda	1
+q10	certificado de buena conducta	7857	Licencia de conducir – Certificado de Antecedentes - Maldonado	Intendencia	8
+q10	certificado de buena conducta	4935	Solicitud de certificado de antecedentes del vehículo - Rivera	Intendencia	3
+q10	certificado de buena conducta	3960	Expedición de certificado de antecedentes de licencia de conducir - San José	Intendencia	3
+q10	certificado de buena conducta	5654	Certificado de antecedentes judiciales según Ley N°19791	Dirección Nacional de Policía Científica	6
+q10	certificado de buena conducta	3431	Departamento de migrantes del MIDES	Dirección Nacional de Desarrollo Social	1
+q10	certificado de buena conducta	1464	Registro y habilitación para barrenista	Comando General del Ejército	1
+q10	certificado de buena conducta	585	Carta de ciudadanía (ciudadanía legal uruguaya)	Corte Electoral	1
+q10	certificado de buena conducta	1541	Habilitación higiénico sanitaria de bodegas	Dirección General de la Salud	2
+q10	certificado de buena conducta	2330	Certificado de desempeño como sub agente, corredor o lotero	Dirección Nacional de Loteria y Quinielas	3
+q10	certificado de buena conducta	7063	Solicitud de Certificado Único Departamental (CUD) - Canelones	Dirección General de Recursos Financieros	1
+q10	certificado de buena conducta	6225	Psicofísico para conducir - Lavalleja	Intendencia	1
+q10	certificado de buena conducta	6861	Registro de instituciones de salud para expedir certificados de aptitud psicofísica para libreta de conducir categoría amateur (hasta 79 años de edad)- Canelones	Dirección de Contralor	1
+q10	certificado de buena conducta	1708	Solicitud de Constancias y Certificados asociados a la Ley 18.840 (Obligatoriedad de conexión al saneamiento) - OSE	Obras Sanitarias del Estado	1
+q10	certificado de buena conducta	4546	Solicitud de certificados de No objeción	Dirección General de la Salud	2
+q10	certificado de buena conducta	2438	Certificado de regularidad de las cooperativas	Auditoría Interna de la Nación	1
+q10	certificado de buena conducta	56	Certificados de información de inmuebles	Dirección General de Registros	1
+q10	certificado de buena conducta	1827	Solicitud de certificado de defunción	Dirección General de la Salud	1
+q10	certificado de buena conducta	482	Certificado de Avecinamiento	Corte Electoral	1
+q10	certificado de buena conducta	4595	Certificado de soltería	Dirección Nacional del Registro de Estado Civil	1
+q10	certificado de buena conducta	478	Certificado de residencia. (derecho al sufragio sin obtener la ciudadanía legal)	Corte Electoral	3
+q10	certificado de buena conducta	5088	Certificado de Titularidad	Dirección Nacional de Identificación Civil	2
+q10	certificado de buena conducta	1412	Certificado PYME	Dirección Nacional de Artesanías, Pequeñas y Medianas Empresas	2
+q10	certificado de buena conducta	4382	Complementario de certificado SUCIVE - Paysandú	Intendencia	1
+q10	certificado de buena conducta	7420	Oficios judiciales	Banco de Previsión Social	2
+q10	certificado de buena conducta	4560	Consulta de documentos judiciales históricos	Archivo General de la Nación	2
+q11	seguro de paro	5746	Reclamos Seguro Obligatorio de Automóviles	Unidad Nacional de Seguridad Vial	3
+q11	seguro de paro	7346	Control financiero de Seguros convencionales	Banco de Previsión Social	1
+q11	seguro de paro	6551	Consulta al Registro de Pólizas de Seguros de Vida	Superintendencia de Servicios Financieros	1
+q11	seguro de paro	2420	Presentación e ingreso del certificado de seguro de responsabilidad civil de pasajeros y certificado de seguro máximo de responsabilidad civil	Dirección Nacional de Transporte	1
+q11	seguro de paro	7354	Reclamos sobre el reintegro de aportes Fonasa a los seguros integrales	Banco de Previsión Social	1
+q11	seguro de paro	7569	Solicitud de crédito por rectificativa código de seguro de salud	Banco de Previsión Social	1
+q11	seguro de paro	2337	Clasificación de empresas según sus actividades	Dirección Nacional de Trabajo	1
+q11	seguro de paro	2482	Seguro de vida para policías en actividad, retirados y pensionistas policiales	Dirección Nacional de Asistencia y Seguridad Social Policial	3
+q11	seguro de paro	5641	Inscripción de seguros obligatorios sobre aeronaves nacionales por explotadores nacionales	Dirección Nacional de Aviación Civil e Infraestructura Aeronáutica	2
+q11	seguro de paro	2820	Informe de Banco de Seguros del Estado ante Servicios de Retiros y Pensiones de las Fuerzas Armadas	Servicio de Retiros y Pensiones de las Fuerzas Armadas	3
+q11	seguro de paro	3587	Subsidio por desempleo por suspensión	Banco de Previsión Social	6
+q11	seguro de paro	7390	Reclamos de Subsidio por desempleo	Banco de Previsión Social	6
+q11	seguro de paro	7462	Subsidio por desempleo por despido	Banco de Previsión Social	7
+q11	seguro de paro	2314	Solicitud de prórroga de subsidio por desempleo	Dirección Nacional de Seguridad Social	7
+q11	seguro de paro	7369	Modificación o anulación en solicitud de Subsidio por desempleo	Banco de Previsión Social	5
+q11	seguro de paro	7621	Regularizar deuda por descuento en Subsidio por desempleo	Banco de Previsión Social	6
+q11	seguro de paro	2330	Certificado de desempeño como sub agente, corredor o lotero	Dirección Nacional de Loteria y Quinielas	3
+q11	seguro de paro	6200	Convenio a feriantes, comercios y otros - Lavalleja	Intendencia	3
+q11	seguro de paro	2913	Expedición de certificado médico aeronáutico	Comando General de la Fuerza Aérea	1
+q11	seguro de paro	6483	Carné de aptitud psico-fisica	Intendencia	1
+q11	seguro de paro	6312	Baja por siniestro - Lavalleja 	Intendencia	1
+q11	seguro de paro	5503	Solicitud de reaforo para pago del impuesto de inmuebles urbanos, suburbanos y rurales sin explotación agropecuaria	División Interior	1
+q11	seguro de paro	2489-4	Prestaciones de Vivienda para personal policial - Préstamo de ahorro previo	Dirección Nacional de Asistencia y Seguridad Social Policial	2
+q11	seguro de paro	2489-5	Prestaciones de Vivienda para personal policial - Subsidios en caso de siniestros producidos por cambios climáticos impredecibles	Dirección Nacional de Asistencia y Seguridad Social Policial	2
+q11	seguro de paro	4762	Emisión de certificados exoneración de aportes patronales para usuarios de Parques Industriales	Dirección Nacional de Industrias	2
+q11	seguro de paro	2176	"Solicitud de ""Copia de Parte o Constancia de Parte de Intervención Profesional de Bomberos"""	Dirección Nacional de Bomberos	1
+q11	seguro de paro	4315	Revisión del subsidio a la cuota	Dirección Nacional de Vivienda	1
+q11	seguro de paro	2244	Apoyo a emprendimientos productivos	Dirección Nacional de Empleo	1
+q11	seguro de paro	6402	Permiso de participación de niñas, niños y adolescentes deportes de riesgo y pruebas hípicas	Instituto del Niño y Adolescente del Uruguay	1
+q11	seguro de paro	3889	Subsidio por paternidad	Banco de Previsión Social	3
+q11	seguro de paro	6904	Solicitud de subsidios para cooperativas	Agencia Nacional de Vivienda	2
+q11	seguro de paro	2744	Solicitud de suspensión del pago de la pasividad	Servicio de Retiros y Pensiones de las Fuerzas Armadas	1
+q12	papeles para casarme	2279	Importación de papel editorial	Dirección Nacional de Industrias	3
+q12	papeles para casarme	2280	Papel editorial: compra en plaza	Dirección Nacional de Industrias	5
+q12	papeles para casarme	6518	Préstamo de planos de archivo papel - Intendencia de Paysandú	Intendencia	7
+q12	papeles para casarme	2282	Papel de diario: exoneración de la tasa de importación para servicios sociales	Dirección Nacional de Industrias	3
+q12	papeles para casarme	4949	Inscripción al registro de fabricantes de paneles solares fotovoltaicos	Dirección Nacional de Industrias	3
+q12	papeles para casarme	5170	Certificado de necesidad para fabricantes de paneles solares fotovoltaicos	Dirección Nacional de Industrias	2
+q12	papeles para casarme	1665	Inscripción de bases de datos personales	Unidad Reguladora y de Control de Datos Personales	2
+q12	papeles para casarme	4164	Solicitud de autorización para impresión de documentación por internet	División Recaudación y Controles Extensivos	2
+q12	papeles para casarme	1454	Solicitud de productos y servicios, cartografías y fotos aéreas al Instituto Geográfico Militar	Comando General del Ejército	2
+q12	papeles para casarme	2528	Casa INJU	Instituto Nacional de la Juventud	3
+q12	papeles para casarme	6232	Inscripción de matrimonio - Lavalleja	Intendencia	5
+q12	papeles para casarme	6502	Inscripción de matrimonio - Florida	Intendencia	5
+q12	papeles para casarme	5168	Partida de matrimonio - Florida	Intendencia	3
+q12	papeles para casarme	6700	Partidas de Nacimiento, Defunción y Matrimonio - Solicitud de Testimonios - Registro Civil - Maldonado	Intendencia	4
+q12	papeles para casarme	6220	Depósito de chapas - Lavalleja	Intendencia	3
+q12	papeles para casarme	6681	Solicitud de rebaje de cordón - Canelones	Dirección General de Obras	2
+q12	papeles para casarme	6282	Partida de matrimonio - Lavalleja	Intendencia	2
+q12	papeles para casarme	4746	Solicitud para permiso de remates de muebles, útiles, judiciales o carreras de caballo - Cerro Largo	Intendencia	1
+q12	papeles para casarme	6675	Descarga de Constancia de Firmas Extranjeras	Dirección General de Secretaría	1
+q12	papeles para casarme	2231	Certificados - Guía para transporte de minerales o rocas	Dirección Nacional de Minería y Geología	1
+q12	papeles para casarme	4833	Solicitud de compra de certificados oficiales de transferencia de exportación (COTE)	Dirección General de Servicios Ganaderos	2
+q12	papeles para casarme	2498	Tu Casa como la soñaste (Préstamo refacción de vivienda) para personal de las FF.AA.	Servicio de Vivienda de las Fuerzas Armadas	1
+q12	papeles para casarme	4834	Solicitud de compra de pase sanitario interno (PSI)	Dirección General de Servicios Ganaderos	2
+q12	papeles para casarme	1461	Inscripción de casa comercial	Comando General del Ejército	1
+q12	papeles para casarme	4814	Solicitud para operar con cannabis no psicoactivo	Dirección General de Servicios Agrícolas	1
+q12	papeles para casarme	6703	Inscripciones de matrimonio– Registro Civil - Maldonado	Intendencia	3
+q12	papeles para casarme	6191-2	Inscripciones en el registro civil - Paysandú - Inscripción de Matrimonio	Intendencia	2
+q12	papeles para casarme	4595	Certificado de soltería	Dirección Nacional del Registro de Estado Civil	2
+q12	papeles para casarme	6266	Partida de nacimiento - Lavalleja 	Intendencia	2
+q12	papeles para casarme	6236	Certificado de Soltería - Lavalleja	Intendencia	2
+q12	papeles para casarme	5165	Partida de nacimiento - Florida	Intendencia	1
+q12	papeles para casarme	6697	Certificado de soltería – Registro Civil - Maldonado	Intendencia	1
+q12	papeles para casarme	5026-1	Solicitud de partidas - Rivera - Partida de Nacimiento	Intendencia	1
+q13	abrir una empresa unipersonal	2020	Inscripción de empresa unipersonal	División Recaudación y Controles Extensivos	8
+q13	abrir una empresa unipersonal	2079	Reinicio de una empresa Unipersonal	División Recaudación y Controles Extensivos	8
+q13	abrir una empresa unipersonal	2118	Clausura empresa unipersonal	División Recaudación y Controles Extensivos	3
+q13	abrir una empresa unipersonal	7575	Clausura empresa unipersonal	Banco de Previsión Social	7
+q13	abrir una empresa unipersonal	2090	Inscripción de una empresa Unipersonal Monotributo	División Recaudación y Controles Extensivos	8
+q13	abrir una empresa unipersonal	7642	Inscribir empresa unipersonal rural	Banco de Previsión Social	6
+q13	abrir una empresa unipersonal	2088	Inscripción de empresa unipersonal con actividad agropecuaria	División Recaudación y Controles Extensivos	7
+q13	abrir una empresa unipersonal	2134	Clausura de empresa unipersonal por fallecimiento del titular	División Recaudación y Controles Extensivos	2
+q13	abrir una empresa unipersonal	7640	Inscribir fuera del mes en curso empresa unipersonal	Banco de Previsión Social	6
+q13	abrir una empresa unipersonal	7643	Inscribir empresa unipersonal rural ante BPS	Banco de Previsión Social	6
+q13	abrir una empresa unipersonal	7638	Inscribir empresa unipersonal dentro del mes en curso	Banco de Previsión Social	5
+q13	abrir una empresa unipersonal	7639	Inscribir empresa unipersonal de profesional universitario dentro del mes en curso	Banco de Previsión Social	2
+q13	abrir una empresa unipersonal	7645	Inscribir empresa unipersonal contratista de obra	Banco de Previsión Social	5
+q13	abrir una empresa unipersonal	2152	Designación de un administrador en una empresa unipersonal por jubilación o subsidio por incapacidad parcial	División Recaudación y Controles Extensivos	1
+q13	abrir una empresa unipersonal	7514	Reiniciar empresa unipersonal dentro del mes en curso	Banco de Previsión Social	2
+q13	abrir una empresa unipersonal	7508	Reiniciar empresa unipersonal de profesional universitario dentro del mes en curso	Banco de Previsión Social	1
+q13	abrir una empresa unipersonal	7673	Inscribir sucursal de empresa extranjera	Banco de Previsión Social	2
+q13	abrir una empresa unipersonal	5836	Modificación/actualización del registro de empresa usuaria de la Div. Sustancias Controladas	Dirección General de la Salud	1
+q14	legalizar documentos para usar afuera	1441	Apostilla y/o legalización de documentos públicos uruguayos o extranjeros para que produzcan efectos en el exterior o en la República	Dirección de Asuntos Consulares	8
+q14	legalizar documentos para usar afuera	2058	Solicitud de cambio de cesionario de un Certificado de Crédito	División Atención y Asistencia	1
+q14	legalizar documentos para usar afuera	2646	Importación de vehículos usados - Certificado de necesidad	Dirección Nacional de Industrias	1
+q14	legalizar documentos para usar afuera	4560	Consulta de documentos judiciales históricos	Archivo General de la Nación	1
+q14	legalizar documentos para usar afuera	6707	Recepción de Documentos - Mesa Virtual 	Unidad Reguladora de Servicios de Energía y Agua	1
+q14	legalizar documentos para usar afuera	6978-5	Empadronamiento de vehículos - Canelones  - Maquinaria vial y agrícola usada	Dirección General de Transito	1
+q14	legalizar documentos para usar afuera	2642	Legalización de firmas de registradores en documentos y certificados	Dirección General de Registros	5
+q14	legalizar documentos para usar afuera	2599-6	Residencia Legal - Documento especial fronterizo	Dirección Nacional de Migración	4
+q14	legalizar documentos para usar afuera	6981	Duplicado de documento de identificación del vehículo - Canelones	Dirección General de Transito	1
+q14	legalizar documentos para usar afuera	234	Documento de notificación para movimientos transfronterizos - Envíos de desechos	Dirección Nacional de Calidad y Evaluación Ambiental	1
+q14	legalizar documentos para usar afuera	1968	Constancia para legalización de documentos firmados por profesionales de la salud registrados y habilitados por el MSP	Direccion General del Sistema Nacional de Salud	7
+q14	legalizar documentos para usar afuera	2599-1	Residencia Legal - Permanente	Dirección Nacional de Migración	6
+q14	legalizar documentos para usar afuera	2599-2	Residencia Legal - Permanente Mercosur	Dirección Nacional de Migración	6
+q14	legalizar documentos para usar afuera	2599-3	Residencia Legal - Permanente por vínculo uruguayo	Dirección Nacional de Migración	5
+q14	legalizar documentos para usar afuera	2599-4	Residencia Legal - Temporaria Mercosur	Dirección Nacional de Migración	3
+q14	legalizar documentos para usar afuera	2599-5	Residencia Legal - Temporaria	Dirección Nacional de Migración	3
+q14	legalizar documentos para usar afuera	4527	Legalización de títulos y documentos estudiantiles firmados por autoridades nacionales	Dirección Nacional de Educación	7
+q14	legalizar documentos para usar afuera	1967	Constancias de registro y habilitación de profesionales de la salud	Direccion General del Sistema Nacional de Salud	4
+q14	legalizar documentos para usar afuera	6031	Actualización de datos registrales y/o levantamiento de Cese de DICOSE	Dirección General de Secretaría	2
+q14	legalizar documentos para usar afuera	6152	Solicitud de profesionales amparados en la ley N° 16.736 Art. 151	Dirección Nacional de Identificación Civil	2
+q14	legalizar documentos para usar afuera	5284	Habilitación urbanística - Florida	Intendencia	1
+q14	legalizar documentos para usar afuera	6374	Solicitud para alambrar predios rurales - Florida	Intendencia	1
+q14	legalizar documentos para usar afuera	4274	Solicitud de autorización para el uso de OVGM para consumo directo y/o procesamiento	Dirección General de Bioseguridad e Inocuidad Alimentaria	1
+q14	legalizar documentos para usar afuera	446	Consultas para convenios	Dirección General de Registros	1
+q14	legalizar documentos para usar afuera	4598-2	Inscripción de partidas extranjeras - Trámite exclusivo para titulares de documentos extranjeros	Dirección Nacional del Registro de Estado Civil	2
+q14	legalizar documentos para usar afuera	4598-1	Inscripción de partidas extranjeras - Trámite para titulares y/o representantes	Dirección Nacional del Registro de Estado Civil	2
+q14	legalizar documentos para usar afuera	6221	Licencia de conducir por primera vez - Lavalleja	Intendencia	2
+q14	legalizar documentos para usar afuera	7101	Acceso a la información pública 	Agencia Nacional de Vivienda	1
+q15	BPS jubilación	7352	Mi jubilación estimada	Banco de Previsión Social	7
+q15	BPS jubilación	7458	Solicitud de jubilación	Banco de Previsión Social	2
+q15	BPS jubilación	7342	Asesoramiento sobre jubilaciones otorgadas	Banco de Previsión Social	1
+q15	BPS jubilación	7356	Jubilación por incapacidad total	Banco de Previsión Social	2
+q15	BPS jubilación	7441	Reformas y revisiones de jubilaciones	Banco de Previsión Social	1
+q15	BPS jubilación	3850	Usuario personal BPS	Banco de Previsión Social	4
+q15	BPS jubilación	7381	Impagos deudor BPS	Banco de Previsión Social	3
+q15	BPS jubilación	7442	Asesoramiento y modificación de jubilación en trámite	Banco de Previsión Social	1
+q15	BPS jubilación	7355	Constancia de pasividad	Banco de Previsión Social	8
+q15	BPS jubilación	7546	Sucesión de contribuyentes - Exclusivo BPS	Banco de Previsión Social	4
+q15	BPS jubilación	7420	Oficios judiciales	Banco de Previsión Social	5
+q15	BPS jubilación	7362	Baja de fe de vida	Banco de Previsión Social	4
+q15	BPS jubilación	7388	Pensión por sobrevivencia generada por Pensión Especial Reparatoria	Banco de Previsión Social	6
+q15	BPS jubilación	7411	Fe de vida	Banco de Previsión Social	3
+q15	BPS jubilación	7435	 Préstamos para prótesis	Banco de Previsión Social	7
+q15	BPS jubilación	7353	Constancia IRPF e IASS (Construcción y jubilados)	Banco de Previsión Social	3
+q15	BPS jubilación	7372	Reclamos de retención judicial por pensión alimenticia	Banco de Previsión Social	1
+q15	BPS jubilación	3577	Préstamos sociales	Banco de Previsión Social	1
+q15	BPS jubilación	3574	Estadías vacacionales para jubilados y pensionistas	Banco de Previsión Social	1
+q15	BPS jubilación	7452	Pensión por vejez	Banco de Previsión Social	5
+q15	BPS jubilación	7418	Afiliación de cobro por giro al exterior	Banco de Previsión Social	1
+q15	BPS jubilación	7438	Reconocimiento de años trabajados	Banco de Previsión Social	1
+q15	BPS jubilación	7462	Subsidio por desempleo por despido	Banco de Previsión Social	2
+q15	BPS jubilación	2019	Registro de pensiones habitacionales	Dirección General de Secretaría	1
+q15	BPS jubilación	7430	Asesoramiento revocación del artículo 8 de la Ley 16713	Banco de Previsión Social	1
+q15	BPS jubilación	2747	Pensión - viuda o viudo de causante que falleció en situación de retiro de las Fuerzas Armadas	Servicio de Retiros y Pensiones de las Fuerzas Armadas	1
+q15	BPS jubilación	7336	Pensión por sobrevivencia generada desde el 1/8/2023	Banco de Previsión Social	1
+q15	BPS jubilación	3868	Constancia de historia laboral nominada	Banco de Previsión Social	2
+q15	BPS jubilación	7559	Denuncias de trabajadores	Banco de Previsión Social	1
+q16	DGI monotributo	7637	Inscribir monotributo unipersonal dentro del mes en curso	Banco de Previsión Social	8
+q16	DGI monotributo	7648	Inscribir monotributo unipersonal fuera del mes en curso	Banco de Previsión Social	8
+q16	DGI monotributo	7651	Inscribir monotributo social Mides unipersonal dentro del mes en curso	Banco de Previsión Social	6
+q16	DGI monotributo	7649	Inscribir monotributo sociedad de hecho dentro del mes en curso	Banco de Previsión Social	8
+q16	DGI monotributo	7653	Inscribir monotributo social Mides unipersonal fuera del mes en curso	Banco de Previsión Social	5
+q16	DGI monotributo	7650	Inscribir monotributo sociedad de hecho fuera del mes en curso	Banco de Previsión Social	8
+q16	DGI monotributo	7654	Inscribir monotributo social Mides sociedad de hecho dentro del mes en curso	Banco de Previsión Social	3
+q16	DGI monotributo	7656	Inscribir monotributo social Mides sociedad de hecho fuera del mes en curso	Banco de Previsión Social	4
+q16	DGI monotributo	4063	Cesión de crédito a favor de DGI - BPS	Tesorería General de la Nación	2
+q16	DGI monotributo	7620	Transformación de naturaleza jurídica (BPS-DGI)	Banco de Previsión Social	2
+q16	DGI monotributo	7761	Reinicio de empresa unipersonal contribuyente de Monotributo	Dirección General Impositiva	5
+q16	DGI monotributo	2614	Inscripción a monotributo social - MIDES	Dirección Nacional de Desarrollo Social	6
+q16	DGI monotributo	7781	Reinicio de actividades de Sociedades de Hecho como Monotributo	Dirección General Impositiva	3
+q16	DGI monotributo	7782	Reinicio de actividades de Sociedades de Hecho Monotributo Social MIDES	Dirección General Impositiva	2
+q16	DGI monotributo	7538	Clausura de unipersonal monotributo social Mides	Banco de Previsión Social	2
+q16	DGI monotributo	7762	Reinicio de una empresa unipersonal contribuyente de Monotributo Social MIDES	Dirección General Impositiva	2
+q16	DGI monotributo	2090	Inscripción de una empresa Unipersonal Monotributo	División Recaudación y Controles Extensivos	2
+q16	DGI monotributo	2115	Inscripción de una sociedad de hecho Monotributo	División Recaudación y Controles Extensivos	2
+q16	DGI monotributo	7551	Modificación de giro monotributo social Mides	Banco de Previsión Social	1
+q16	DGI monotributo	5297	Inscripción de una Sociedad de Hecho Monotributo Social MIDES	División Recaudación y Controles Extensivos	1
+q17	MIDES tarjeta uruguay social	7359	Tarjeta Uruguay Social	Banco de Previsión Social	8
+q17	MIDES tarjeta uruguay social	4650	Solicitud de Tarjeta Uruguay Social para Personas Trans	Dirección Nacional de Transferencias y Análisis de Datos	8
+q17	MIDES tarjeta uruguay social	2603	Solicitud de visita para la obtención de Tarjeta Uruguay Social	Dirección Nacional de Transferencias y Análisis de Datos	8
+q17	MIDES tarjeta uruguay social	4677	Solicitud de reemplazo de tarjeta MIDES	Dirección Nacional de Transferencias y Análisis de Datos	8
+q17	MIDES tarjeta uruguay social	4975	Tarjeta vecinal fronteriza (Uruguay - Argentina)	Dirección Nacional de Migración	2
+q17	MIDES tarjeta uruguay social	2614	Inscripción a monotributo social - MIDES	Dirección Nacional de Desarrollo Social	7
+q17	MIDES tarjeta uruguay social	7529	Inactividad de monotributo social Mides	Banco de Previsión Social	4
+q17	MIDES tarjeta uruguay social	7953	Inscripción de una Cooperativa Social MIDES	Dirección General Impositiva	6
+q17	MIDES tarjeta uruguay social	4670	Denuncia a comercios solidarios por irregularidades con tarjetas MIDES	Dirección Nacional de Transferencias y Análisis de Datos	8
+q17	MIDES tarjeta uruguay social	4647	Reclamos por cargas mal realizadas en Tarjetas Mides	Dirección Nacional de Transferencias y Análisis de Datos	7
+q17	MIDES tarjeta uruguay social	2123	Exoneración del costo del trámite de Cédula de identidad	Dirección General de Secretaría	1
+q17	MIDES tarjeta uruguay social	5300	Modificación de titulares de Sociedad de Hecho – Monotributo social MIDES (Ley 18.874)	División Recaudación y Controles Extensivos	2
+q17	MIDES tarjeta uruguay social	6936	Bonificación por beneficiario MIDES - OSE	Obras Sanitarias del Estado	1
+q17	MIDES tarjeta uruguay social	7551	Modificación de giro monotributo social Mides	Banco de Previsión Social	1
+q17	MIDES tarjeta uruguay social	5297	Inscripción de una Sociedad de Hecho Monotributo Social MIDES	División Recaudación y Controles Extensivos	2
+q17	MIDES tarjeta uruguay social	2092	Inscripción de una empresa unipersonal Monotributo Social MIDES	División Recaudación y Controles Extensivos	1
+q17	MIDES tarjeta uruguay social	3581	Plan de equidad	Banco de Previsión Social	2
+q17	MIDES tarjeta uruguay social	3582	Asignación familiar	Banco de Previsión Social	1
+q17	MIDES tarjeta uruguay social	7421	Plan de equidad - Actualización de información del hogar	Banco de Previsión Social	1
+q17	MIDES tarjeta uruguay social	1430	Alta de asignación familiar en servicio de Retiros y Pensiones de las Fuerzas Armadas	Servicio de Retiros y Pensiones de las Fuerzas Armadas	1
+q17	MIDES tarjeta uruguay social	7339	Asignación familiar por embarazos y nacimientos múltiples	Banco de Previsión Social	1
+q18	UTE exoneración	4748	Exoneraciones a cooperativas de viviendas - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	8
+q18	UTE exoneración	1409	Exoneración a cooperativas, MEVIR y MVOTMA - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	8
+q18	UTE exoneración	1417	Exoneraciones a cooperativas de vivienda del Plan Juntos - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	7
+q18	UTE exoneración	1380	Pago de facturas de UTE por internet - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	6
+q18	UTE exoneración	1382	Financiaciones - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	3
+q18	UTE exoneración	1379	Duplicado de facturas - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	6
+q18	UTE exoneración	1384	Simulador de consumo - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	2
+q18	UTE exoneración	1386	Pagos a la cuenta - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	2
+q18	UTE exoneración	1390	Modificación de tarifa - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	5
+q18	UTE exoneración	1393	Tasas y tarifas - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	4
+q18	UTE exoneración	7061	Solicitud de exoneración o auspicio de eventos - Canelones	Dirección General de Recursos Financieros	1
+q18	UTE exoneración	1389	Cambio de dirección de envío de la factura - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	2
+q18	UTE exoneración	4999	Exoneración de eventos - Paysandú	Intendencia	1
+q18	UTE exoneración	1387	Solicitud de baja del servicio eléctrico - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	6
+q18	UTE exoneración	4774	Exoneración transporte profesional - Salto	Intendencia	2
+q18	UTE exoneración	4741	Consulta de lecturas y consumos - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	3
+q18	UTE exoneración	1399	Solicitud de verificación de instalación por razones de seguridad y reposición del servicio - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	1
+q18	UTE exoneración	4817	Reclamo por importes facturados - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	2
+q18	UTE exoneración	4818	Reclamo por veredas rotas - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	2
+q18	UTE exoneración	4815	Descuentos por productos comerciales - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	1
+q18	UTE exoneración	4816	Reclamos por no recibir la factura - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	1
+q18	UTE exoneración	1388	Cambio de nombre del titular del servicio - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	1
+q18	UTE exoneración	1804	Exoneraciones de importaciones de instituciones privadas	Dirección General de Secretaría	1
+q18	UTE exoneración	6450	Exoneración patente de rodados vehículos utilitarios - Florida	Intendencia	1
+q18	UTE exoneración	7470	Exoneración tributaria de instituciones deportivas	Banco de Previsión Social	1
+q18	UTE exoneración	6082	Cambio de Tarifa Plan Inteligente - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	2
+q18	UTE exoneración	1398	Consultas y/o reclamos por cortes en el servicio de energía eléctrica - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	1
+q19	pasaprote	3978	Expedición y renovación de pasaportes diplomáticos y oficiales	Dirección de Asuntos Consulares	6
+q19	pasaprote	6889-4	Solicitud de pasaporte - Renovación - Ciudadanos legales	Dirección Nacional de Identificación Civil	5
+q19	pasaprote	4678	Solicitud de pasaporte común y renovación de cédula desde el exterior	Dirección de Asuntos Consulares	4
+q19	pasaprote	6889-1	Solicitud de pasaporte - Renovación - Personas nacionales uruguayas	Dirección Nacional de Identificación Civil	4
+q19	pasaprote	606-4	Solicitud de pasaporte - Primera vez - Ciudadanos legales	Dirección Nacional de Identificación Civil	5
+q19	pasaprote	6889-2	Solicitud de pasaporte - Renovación - Personas ciudadanas naturales uruguayas	Dirección Nacional de Identificación Civil	4
+q19	pasaprote	6889-3	Solicitud de pasaporte - Renovación - Nietos o nietas de personas uruguayas	Dirección Nacional de Identificación Civil	5
+q19	pasaprote	606-1	Solicitud de pasaporte - Primera vez - Personas Ciudadanas Naturales Uruguayas	Dirección Nacional de Identificación Civil	7
+q19	pasaprote	606-2	Solicitud de pasaporte - Primera vez - Personas Nacionales Uruguayas (Ley Nº 16.021)	Dirección Nacional de Identificación Civil	5
+q19	pasaprote	7888	Expedición y renovación de Títulos de Identidad y de Viaje	Dirección de Asuntos Consulares	4
+q19	pasaprote	1683	Red de cobros y pagos - sector público	Administracion Nacional de Correos	2
+q19	pasaprote	7427	Atención primaria	Banco de Previsión Social	2
+q19	pasaprote	6056	Solicitud de barométrica - Por primera vez - PAYSANDÚ	Intendencia	2
+q19	pasaprote	606	Solicitud de pasaporte - Primera vez	Dirección Nacional de Identificación Civil	2
+q19	pasaprote	5588	Recolección de residuos, podas y restos de pasto - PAYSANDÚ	Intendencia	2
+q19	pasaprote	2765	Certificado de dietas docentes en su pasividad - Servicio de Retiros y Pensiones de las Fuerzas Armadas	Servicio de Retiros y Pensiones de las Fuerzas Armadas	1
+q19	pasaprote	4834	Solicitud de compra de pase sanitario interno (PSI)	Dirección General de Servicios Ganaderos	1
+q19	pasaprote	5702	Solicitud de tratamiento para Trombocitopenia Inmune Primaria	Fondo Nacional de Recursos	2
+q19	pasaprote	606-3	Solicitud de pasaporte - Primera vez - Nietos O Nietas De Personas Uruguayas (Ley Nº 19.362)	Dirección Nacional de Identificación Civil	3
+q19	pasaprote	261-7	Permiso para menor de edad - Menor que viaja solo, cuando uno de sus padres es fallecido	Dirección Nacional de Migración	1
+q19	pasaprote	261-2	Permiso para menor de edad - Menor que viaja sin los padres o acompañado por un solo padre	Dirección Nacional de Migración	2
+q19	pasaprote	261-11	Permiso para menor de edad - Menor cuando uno o ambos padres residen en el exterior del país	Dirección Nacional de Migración	1
+q19	pasaprote	261-6	Permiso para menor de edad - Menor cuando uno de los padres ha perdido la patria potestad	Dirección Nacional de Migración	1
+q19	pasaprote	261-1	Permiso para menor de edad - Menor autorizado por uno o ambos padres mediante carta poder	Dirección Nacional de Migración	2
+q19	pasaprote	261-3	Permiso para menor de edad - Menor cuando los padres residen en ciudades diferentes dentro del territorio Nacional	Dirección Nacional de Migración	1
+q19	pasaprote	261-12	Permiso para menor de edad - Cuando uno de los padres es declarado incapaz	Dirección Nacional de Migración	1
+q19	pasaprote	7267-5	Gestión de Permisos Ocasionales de Pasajeros - GEPOP - GEPOP - Registro de Usuarios Habilitados	Dirección Nacional de Transporte	1
+q19	pasaprote	4356	Servicio de consulta e Intervención para personas mayores en situación de vulnerabilidad	Instituto Nacional de las Personas Mayores	1
+q19	pasaprote	6538-8	Documento Nacional de Identidad - Renovación - Personas con carné de acreditación diplomática	Dirección Nacional de Identificación Civil	1
+q19	pasaprote	6538-9	Documento Nacional de Identidad - Renovación - Personas amparadas a la Comisión de Refugiados (CORE)	Dirección Nacional de Identificación Civil	1
+q19	pasaprote	6538-7	Documento Nacional de Identidad - Renovación - Personas nacidas en el exterior con carta de ciudadanía	Dirección Nacional de Identificación Civil	1
+q20	jubilasion	7352	Mi jubilación estimada	Banco de Previsión Social	7
+q20	jubilasion	7458	Solicitud de jubilación	Banco de Previsión Social	8
+q20	jubilasion	7342	Asesoramiento sobre jubilaciones otorgadas	Banco de Previsión Social	7
+q20	jubilasion	7356	Jubilación por incapacidad total	Banco de Previsión Social	4
+q20	jubilasion	7441	Reformas y revisiones de jubilaciones	Banco de Previsión Social	6
+q20	jubilasion	7442	Asesoramiento y modificación de jubilación en trámite	Banco de Previsión Social	6
+q20	jubilasion	7547	 Regularización de deudas exigibles para el acceso a prestaciones de jubilación y pensión	Banco de Previsión Social	5
+q20	jubilasion	2152	Designación de un administrador en una empresa unipersonal por jubilación o subsidio por incapacidad parcial	División Recaudación y Controles Extensivos	3
+q20	jubilasion	7533	Inactividad patronal por jubilación o subsidio por incapacidad parcial e ingreso de administrador	Banco de Previsión Social	2
+q20	jubilasion	7434	Trámites de seguridad social por convenio internacional	Banco de Previsión Social	2
+q20	jubilasion	2747	Pensión - viuda o viudo de causante que falleció en situación de retiro de las Fuerzas Armadas	Servicio de Retiros y Pensiones de las Fuerzas Armadas	2
+q20	jubilasion	7344	Consulta de estado de trámite jubilatorio	Banco de Previsión Social	1
+q20	jubilasion	6437	Exoneración de contribución imobiliaria urbana a pasivos - Florida	Intendencia	1
+q20	jubilasion	2758	Pensión - viuda o viudo de causante que falleció en actividad - de integrantes de las FFAA	Servicio de Retiros y Pensiones de las Fuerzas Armadas	2
+q20	jubilasion	7336	Pensión por sobrevivencia generada desde el 1/8/2023	Banco de Previsión Social	2
+q20	jubilasion	6935	Solicitud de visita social para jubilados o pensionistas - OSE	Obras Sanitarias del Estado	2
+q20	jubilasion	2731	Acumulación de servicios ley 17.819 de fecha 06/09/2004 - para integrantes de las Fuerzas Armadas	Servicio de Retiros y Pensiones de las Fuerzas Armadas	3
+q20	jubilasion	7195	Exoneración parcial de contribución inmobiliaria para jubilados, pensionistas o jefes de hogares monoparentales (Decreto 67/08)- Canelones	Dirección General de Recursos Financieros	1
+q20	jubilasion	5136	Beneficio para extranjeros jubilados que obtengan residencia permanente	Dirección Nacional de Migración	1
+q20	jubilasion	7428	Subsidio especial de inactividad compensada	Banco de Previsión Social	1
+q20	jubilasion	7355	Constancia de pasividad	Banco de Previsión Social	3
+q20	jubilasion	3575	Pensión por sobrevivencia generada hasta el 31/7/2023	Banco de Previsión Social	1
+q20	jubilasion	7417	Prima por edad	Banco de Previsión Social	1
+q20	jubilasion	7388	Pensión por sobrevivencia generada por Pensión Especial Reparatoria	Banco de Previsión Social	2
+q20	jubilasion	7457	Haberes sucesorios	Banco de Previsión Social	2
+q20	jubilasion	7435	 Préstamos para prótesis	Banco de Previsión Social	2
+q20	jubilasion	7420	Oficios judiciales	Banco de Previsión Social	1
+q20	jubilasion	7452	Pensión por vejez	Banco de Previsión Social	1
+q20	jubilasion	7360	 Asistencia a la vejez	Banco de Previsión Social	1
+q21	apostiya	1441	Apostilla y/o legalización de documentos públicos uruguayos o extranjeros para que produzcan efectos en el exterior o en la República	Dirección de Asuntos Consulares	7
+q21	apostiya	6174	Solicitud de reconocimientos y reválidas de títulos terciarios	Dirección Nacional de Educación	3
+q21	apostiya	5654	Certificado de antecedentes judiciales según Ley N°19791	Dirección Nacional de Policía Científica	5
+q21	apostiya	2599-1	Residencia Legal - Permanente	Dirección Nacional de Migración	5
+q21	apostiya	2599-2	Residencia Legal - Permanente Mercosur	Dirección Nacional de Migración	5
+q21	apostiya	2599-3	Residencia Legal - Permanente por vínculo uruguayo	Dirección Nacional de Migración	4
+q21	apostiya	2599-4	Residencia Legal - Temporaria Mercosur	Dirección Nacional de Migración	2
+q21	apostiya	2599-5	Residencia Legal - Temporaria	Dirección Nacional de Migración	2
+q21	apostiya	2599-6	Residencia Legal - Documento especial fronterizo	Dirección Nacional de Migración	2
+q21	apostiya	109	Solicitud de certificado de inscripción de empresas constructoras extranjeras (Artículo 33 del Decreto 208/009) FINEOP	Dirección General de Secretaría	2
+q21	apostiya	6220	Depósito de chapas - Lavalleja	Intendencia	3
+q21	apostiya	6236	Certificado de Soltería - Lavalleja	Intendencia	3
+q21	apostiya	6066	Solicitud de Piezas Òseas - PAYSANDÚ	Intendencia	2
+q21	apostiya	5546	Reposición de stock de suero antiofídico	Dirección General de la Salud	2
+q21	apostiya	6289	Inhumación - Lavalleja	Intendencia	1
+q21	apostiya	6171	Solicitud de sala de exposiciones - Maldonado	Intendencia	2
+q21	apostiya	1434	Apoyo a la comunidad - Ministerio de Defensa Nacional (MDN)	Comando General del Ejército	2
+q21	apostiya	6232	Inscripción de matrimonio - Lavalleja	Intendencia	2
+q21	apostiya	5588	Recolección de residuos, podas y restos de pasto - PAYSANDÚ	Intendencia	1
+q21	apostiya	543	Servicio de seguimiento de envíos postales del Correo Uruguayo	Administracion Nacional de Correos	1
+q21	apostiya	307	Certificado de antecedentes judiciales	Dirección Nacional de Policía Científica	2
+q21	apostiya	585	Carta de ciudadanía (ciudadanía legal uruguaya)	Corte Electoral	1
+q21	apostiya	2735	Pago de haberes - retirados y pensionistas de las Fuerzas Armadas	Servicio de Retiros y Pensiones de las Fuerzas Armadas	2
+q21	apostiya	4598-2	Inscripción de partidas extranjeras - Trámite exclusivo para titulares de documentos extranjeros	Dirección Nacional del Registro de Estado Civil	3
+q21	apostiya	4598-1	Inscripción de partidas extranjeras - Trámite para titulares y/o representantes	Dirección Nacional del Registro de Estado Civil	3
+q21	apostiya	6536	Licencia de conducir – Reválidas de Conducir Extranjeras - Maldonado	Intendencia	1
+q21	apostiya	2739	Acrecimiento de pensión - integrantes de las Fuerzas Armadas	Servicio de Retiros y Pensiones de las Fuerzas Armadas	1
+q21	apostiya	1439	Ingreso de automotores de uruguayos que retornan al país	Dirección General para Asuntos Consulares y Vinculación	1
+q21	apostiya	6108	Expropiación 	Dirección Nacional de Catastro	1
+q21	apostiya	6283	Partida de defunción - Lavalleja	Intendencia	1
+q21	apostiya	1968	Constancia para legalización de documentos firmados por profesionales de la salud registrados y habilitados por el MSP	Direccion General del Sistema Nacional de Salud	2
+q21	apostiya	4527	Legalización de títulos y documentos estudiantiles firmados por autoridades nacionales	Dirección Nacional de Educación	2
+q21	apostiya	1967	Constancias de registro y habilitación de profesionales de la salud	Direccion General del Sistema Nacional de Salud	2
+q21	apostiya	6221	Licencia de conducir por primera vez - Lavalleja	Intendencia	1
+q21	apostiya	7101	Acceso a la información pública 	Agencia Nacional de Vivienda	1
+q22	partida de nasimiento	5165	Partida de nacimiento - Florida	Intendencia	7
+q22	partida de nasimiento	6266	Partida de nacimiento - Lavalleja 	Intendencia	8
+q22	partida de nasimiento	231-1	Solicitud de partidas - Nacimiento	Dirección Nacional del Registro de Estado Civil	8
+q22	partida de nasimiento	5026-1	Solicitud de partidas - Rivera - Partida de Nacimiento	Intendencia	7
+q22	partida de nasimiento	4771	Solicitud de partida de nacimiento - Salto	Intendencia	8
+q22	partida de nasimiento	6700	Partidas de Nacimiento, Defunción y Matrimonio - Solicitud de Testimonios - Registro Civil - Maldonado	Intendencia	4
+q22	partida de nasimiento	5089	Datos de inscripción de nacimiento 	Dirección Nacional de Identificación Civil	6
+q22	partida de nasimiento	5026-2	Solicitud de partidas - Rivera - Partida de Defunción	Intendencia	4
+q22	partida de nasimiento	5026-4	Solicitud de partidas - Rivera - Partida de Reconocimiento	Intendencia	4
+q22	partida de nasimiento	4622	Inscripción de nacimiento	Dirección Nacional del Registro de Estado Civil	4
+q22	partida de nasimiento	6283	Partida de defunción - Lavalleja	Intendencia	1
+q22	partida de nasimiento	6907	Solicitud de partidas Registro Civil - Canelones	Dirección General de Administración	2
+q22	partida de nasimiento	5026-3	Solicitud de partidas - Rivera - Partida de matrimonio o divorcio	Intendencia	2
+q22	partida de nasimiento	6282	Partida de matrimonio - Lavalleja	Intendencia	2
+q22	partida de nasimiento	6052	Inscripción de Partidas Supletorias	Dirección Nacional del Registro de Estado Civil	2
+q22	partida de nasimiento	231-2	"Solicitud de partidas - 	 Reconocimiento"	Dirección Nacional del Registro de Estado Civil	2
+q22	partida de nasimiento	231-3	Solicitud de partidas - Matrimonio	Dirección Nacional del Registro de Estado Civil	2
+q22	partida de nasimiento	6233-1	Inscripción de nacimiento - Lavalleja - Inscripción en plazo	Intendencia	2
+q22	partida de nasimiento	6701	Inscripción de nacimiento – Registro Civil - Maldonado	Intendencia	2
+q22	partida de nasimiento	6233-2	Inscripción de nacimiento - Lavalleja - Inscripción tardía	Intendencia	2
+q22	partida de nasimiento	6191-1	Inscripciones en el registro civil - Paysandú - Inscripción de Nacimiento	Intendencia	1
+q23	cedla de identidad	2123	Exoneración del costo del trámite de Cédula de identidad	Dirección General de Secretaría	6
+q23	cedla de identidad	5800	Desbloqueo de PIN y renovación de certificado de firma de cédula de identidad electrónica	Dirección Nacional de Identificación Civil	6
+q23	cedla de identidad	129	Cédula catastral	Dirección Nacional de Catastro	4
+q23	cedla de identidad	127	Cédula catastral informada	Dirección Nacional de Catastro	5
+q23	cedla de identidad	5278	Hoja de identidad provisoria	Dirección Nacional de Migración	4
+q23	cedla de identidad	4992-2	Identidad digital - Usuario gub.uy - Validar tu identidad de Usuario gub.uy	Agencia de Gobierno Electrónico y Sociedad de la Información	3
+q23	cedla de identidad	5167-1	Certificado migratorio para renovación de documento de identidad - Solicitantes de Refugio	Dirección Nacional de Migración	5
+q23	cedla de identidad	5167-2	Certificado migratorio para renovación de documento de identidad - Refugiados	Dirección Nacional de Migración	4
+q23	cedla de identidad	5167-3	Certificado migratorio para renovación de documento de identidad - Residencia Legal D.N.M/M.RR.EE.	Dirección Nacional de Migración	6
+q23	cedla de identidad	6538-6	Documento Nacional de Identidad - Renovación - Personas nacidas en el exterior con hoja de identidad provisoria	Dirección Nacional de Identificación Civil	2
+q23	cedla de identidad	5167	Certificado migratorio para renovación de documento de identidad	Dirección Nacional de Migración	1
+q23	cedla de identidad	5082	Solicitud de información de SIDECO (Servicio de Identificación Confirmada)	Dirección Nacional de Identificación Civil	2
+q23	cedla de identidad	497	Solicitud de Certificado Único Departamental (CUD) - Salto	Intendencia	1
+q23	cedla de identidad	6081	Identidad y género: cambio de nombre y sexo registral	Dirección Nacional del Registro de Estado Civil	2
+q23	cedla de identidad	7063	Solicitud de Certificado Único Departamental (CUD) - Canelones	Dirección General de Recursos Financieros	1
+q23	cedla de identidad	6271	Certificado Migratorio para emitir documento de identidad a solicitantes de refugio	Dirección Nacional de Migración	3
+q23	cedla de identidad	7888	Expedición y renovación de Títulos de Identidad y de Viaje	Dirección de Asuntos Consulares	2
+q23	cedla de identidad	2198	Renovación del permiso nacional de circulación y cédula de identificación vehicular	Dirección Nacional de Transporte	1
+q23	cedla de identidad	5088	Certificado de Titularidad	Dirección Nacional de Identificación Civil	1
+q23	cedla de identidad	6538-9	Documento Nacional de Identidad - Renovación - Personas amparadas a la Comisión de Refugiados (CORE)	Dirección Nacional de Identificación Civil	1
+q23	cedla de identidad	607-7	Documento Nacional de Identidad - Primera Vez - Personas con carné de acreditación diplomática	Dirección Nacional de Identificación Civil	2
+q23	cedla de identidad	6538-8	Documento Nacional de Identidad - Renovación - Personas con carné de acreditación diplomática	Dirección Nacional de Identificación Civil	2
+q23	cedla de identidad	6538-7	Documento Nacional de Identidad - Renovación - Personas nacidas en el exterior con carta de ciudadanía	Dirección Nacional de Identificación Civil	2
+q23	cedla de identidad	607-8	Documento Nacional de Identidad - Primera Vez - Personas amparadas a la Comisión de Refugiados (CORE)	Dirección Nacional de Identificación Civil	2
+q23	cedla de identidad	607-1	Documento Nacional de Identidad - Primera Vez - Personas ciudadanas naturales uruguayas	Dirección Nacional de Identificación Civil	2
+q23	cedla de identidad	607-3	Documento Nacional de Identidad - Primera Vez - Nietos o nietas de personas uruguayas (Ley Nº 19.362)	Dirección Nacional de Identificación Civil	2
+q23	cedla de identidad	6538-1	Documento Nacional de Identidad - Renovación - Personas ciudadanas naturales uruguayas	Dirección Nacional de Identificación Civil	2
+q23	cedla de identidad	607-2	Documento Nacional de Identidad - Primera Vez - Personas nacionales uruguayas (Ley Nº 16.021)	Dirección Nacional de Identificación Civil	2
+q23	cedla de identidad	607-5	Documento Nacional de Identidad - Primera Vez - Personas nacidas en el exterior con residencia temporaria o residencia Temporaria Mercosur	Dirección Nacional de Identificación Civil	2
+q23	cedla de identidad	6538-2	Documento Nacional de Identidad - Renovación - Personas nacionales uruguayas (Ley Nº 16.021)	Dirección Nacional de Identificación Civil	2
+q24	me quedé sin trabajo, qué puedo cobrar	7936-1	Vacaciones y Trabajo (Working Holiday) - Vacaciones y Trabajo (Working Holiday) para uruguayos	Dirección de Migración Internacional	4
+q24	me quedé sin trabajo, qué puedo cobrar	4916	División Sustancias Controladas: Quejas, Reclamos, Sugerencias y Reconocimientos	Dirección General de la Salud	3
+q24	me quedé sin trabajo, qué puedo cobrar	6063	Denuncia de acoso y violencia en el trabajo	Inspección General del Trabajo y de la Seguridad Social	2
+q24	me quedé sin trabajo, qué puedo cobrar	7524	Inactividad de cooperativa de trabajo o social	Banco de Previsión Social	2
+q24	me quedé sin trabajo, qué puedo cobrar	7647	Inscribir titular de trabajo doméstico	Banco de Previsión Social	2
+q24	me quedé sin trabajo, qué puedo cobrar	7936-2	Vacaciones y Trabajo (Working Holiday) - Vacaciones y Trabajo (Working Holiday) para ciudadanos extranjeros	Dirección de Migración Internacional	3
+q24	me quedé sin trabajo, qué puedo cobrar	7387	Cambio de local de cobro de prestaciones a BPS	Banco de Previsión Social	2
+q24	me quedé sin trabajo, qué puedo cobrar	6524	División Finanzas – Pagos y Cobros del MSP: Quejas, Reclamos, Sugerencias y Reconocimientos	Dirección General de Secretaría	2
+q24	me quedé sin trabajo, qué puedo cobrar	5329	Sólo si juró en el Liceo Militar, puede pedir copia de la Jura de la Bandera	Comando General del Ejército	2
+q24	me quedé sin trabajo, qué puedo cobrar	6937	Relevamiento de Servicios de Prevención y Salud en el Trabajo	Dirección General de la Salud	2
+q24	me quedé sin trabajo, qué puedo cobrar	1683	Red de cobros y pagos - sector público	Administracion Nacional de Correos	2
+q24	me quedé sin trabajo, qué puedo cobrar	7462	Subsidio por desempleo por despido	Banco de Previsión Social	4
+q24	me quedé sin trabajo, qué puedo cobrar	7457	Haberes sucesorios	Banco de Previsión Social	5
+q24	me quedé sin trabajo, qué puedo cobrar	7428	Subsidio especial de inactividad compensada	Banco de Previsión Social	2
+q24	me quedé sin trabajo, qué puedo cobrar	7327	Haberes sucesorios	Banco de Previsión Social	3
+q24	me quedé sin trabajo, qué puedo cobrar	7382	Reclamos de no cobro de prestaciones	Banco de Previsión Social	1
+q24	me quedé sin trabajo, qué puedo cobrar	6904	Solicitud de subsidios para cooperativas	Agencia Nacional de Vivienda	1
+q24	me quedé sin trabajo, qué puedo cobrar	2764	Negativo y Baja de asignación familiar en Servicio de Retiros y Pensiones de las Fuerzas Armadas	Servicio de Retiros y Pensiones de las Fuerzas Armadas	3
+q24	me quedé sin trabajo, qué puedo cobrar	276	Consulta laboral y salarial	Dirección Nacional de Trabajo	1
+q24	me quedé sin trabajo, qué puedo cobrar	7994	Bajar Usuario Personal	Banco de Previsión Social	1
+q24	me quedé sin trabajo, qué puedo cobrar	2484	Pensión policial y haberes impagos o sucesorios	Dirección Nacional de Asistencia y Seguridad Social Policial	3
+q24	me quedé sin trabajo, qué puedo cobrar	7392	Subsidio para cuidados por adopción	Banco de Previsión Social	3
+q24	me quedé sin trabajo, qué puedo cobrar	2565	Cobro de peculio por tareas realizadas en unidades de internación	Instituto Nacional de Rehabilitación	3
+q24	me quedé sin trabajo, qué puedo cobrar	2757	Pensión - Padres del causante -incapacitados para todo tipo de trabajo - de integrantes de las FF AA	Servicio de Retiros y Pensiones de las Fuerzas Armadas	1
+q24	me quedé sin trabajo, qué puedo cobrar	7413	Pago a terceros por única vez	Banco de Previsión Social	2
+q24	me quedé sin trabajo, qué puedo cobrar	7479	Planteamiento sobre situaciones especiales de trabajo doméstico	Banco de Previsión Social	2
+q24	me quedé sin trabajo, qué puedo cobrar	3931	Levantamiento de Embargo Trabado por el SGA	Contaduría General de la Nación	1
+q24	me quedé sin trabajo, qué puedo cobrar	7416	Constancia de actividades o negativo de actividades y haberes	Banco de Previsión Social	1
+q24	me quedé sin trabajo, qué puedo cobrar	7400	Convenio de pago por cobro indebido	Banco de Previsión Social	1
+q24	me quedé sin trabajo, qué puedo cobrar	3587	Subsidio por desempleo por suspensión	Banco de Previsión Social	2
+q24	me quedé sin trabajo, qué puedo cobrar	7390	Reclamos de Subsidio por desempleo	Banco de Previsión Social	2
+q24	me quedé sin trabajo, qué puedo cobrar	7621	Regularizar deuda por descuento en Subsidio por desempleo	Banco de Previsión Social	2
+q24	me quedé sin trabajo, qué puedo cobrar	2330	Certificado de desempeño como sub agente, corredor o lotero	Dirección Nacional de Loteria y Quinielas	2
+q24	me quedé sin trabajo, qué puedo cobrar	2314	Solicitud de prórroga de subsidio por desempleo	Dirección Nacional de Seguridad Social	2
+q24	me quedé sin trabajo, qué puedo cobrar	7369	Modificación o anulación en solicitud de Subsidio por desempleo	Banco de Previsión Social	2
+q24	me quedé sin trabajo, qué puedo cobrar	3889	Subsidio por paternidad	Banco de Previsión Social	2
+q24	me quedé sin trabajo, qué puedo cobrar	7379	Solicitar la baja de la tarjeta BPS Prestaciones	Banco de Previsión Social	1
+q24	me quedé sin trabajo, qué puedo cobrar	7420	Oficios judiciales	Banco de Previsión Social	1
+q25	quiero viajar con mi hijo menor al exterior	617	Tramitar permiso de menor en y para el exterior	Dirección de Asuntos Consulares	8
+q25	quiero viajar con mi hijo menor al exterior	261-11	Permiso para menor de edad - Menor cuando uno o ambos padres residen en el exterior del país	Dirección Nacional de Migración	8
+q25	quiero viajar con mi hijo menor al exterior	261-4	Permiso para menor de edad - Menor con autorización judicial de viaje	Dirección Nacional de Migración	8
+q25	quiero viajar con mi hijo menor al exterior	1839	Vacunación contra fiebre amarilla para viajes al exterior	Dirección General de la Salud	3
+q25	quiero viajar con mi hijo menor al exterior	261-7	Permiso para menor de edad - Menor que viaja solo, cuando uno de sus padres es fallecido	Dirección Nacional de Migración	8
+q25	quiero viajar con mi hijo menor al exterior	261-2	Permiso para menor de edad - Menor que viaja sin los padres o acompañado por un solo padre	Dirección Nacional de Migración	8
+q25	quiero viajar con mi hijo menor al exterior	2750	Pensión - en representación de hijos menores - de integrantes de las Fuerzas Armadas	Servicio de Retiros y Pensiones de las Fuerzas Armadas	2
+q25	quiero viajar con mi hijo menor al exterior	1874	Asesoramiento a viajeros sobre vacunación y otras medidas profilácticas en viajes internacionales	Dirección General de la Salud	2
+q25	quiero viajar con mi hijo menor al exterior	261-5	Permiso para menor de edad - Menor que está bajo el régimen de tutela	Dirección Nacional de Migración	4
+q25	quiero viajar con mi hijo menor al exterior	261-6	Permiso para menor de edad - Menor cuando uno de los padres ha perdido la patria potestad	Dirección Nacional de Migración	7
+q25	quiero viajar con mi hijo menor al exterior	4473	Restitución internacional de menores	Dirección Nacional de Asuntos Constitucionales y Legales	2
+q25	quiero viajar con mi hijo menor al exterior	6525	Régimen Internacional de Visitas de Menores de 16 años	Dirección Nacional de Asuntos Constitucionales y Legales	1
+q25	quiero viajar con mi hijo menor al exterior	261-3	Permiso para menor de edad - Menor cuando los padres residen en ciudades diferentes dentro del territorio Nacional	Dirección Nacional de Migración	4
+q25	quiero viajar con mi hijo menor al exterior	261-1	Permiso para menor de edad - Menor autorizado por uno o ambos padres mediante carta poder	Dirección Nacional de Migración	7
+q25	quiero viajar con mi hijo menor al exterior	261-10	Permiso para menor de edad - Menor con uno de sus padres internado en un Centro de Reclusión	Dirección Nacional de Migración	6
+q25	quiero viajar con mi hijo menor al exterior	261-12	Permiso para menor de edad - Cuando uno de los padres es declarado incapaz	Dirección Nacional de Migración	2
+q26	quiero traer a mi perro de otro país	5412	Registro y solicitud de carné para usuarios de perro de asistencia y perro guía	Dirección General de Secretaría	6
+q26	quiero traer a mi perro de otro país	4333	Empadronamiento de vehículos proveniente del extranjero (artículo 76 Ley 18.250) - Paysandú	Intendencia	4
+q26	quiero traer a mi perro de otro país	2168	Registro de delegados sindicales de todo el país	Dirección General de Secretaría	2
+q26	quiero traer a mi perro de otro país	4401	Importación de medicamentos no registrados en nuestro país	Dirección General de la Salud	2
+q26	quiero traer a mi perro de otro país	5665	Traslado de restos a otro país - PAYSANDÚ	Intendencia	6
+q26	quiero traer a mi perro de otro país	1439	Ingreso de automotores de uruguayos que retornan al país	Dirección General para Asuntos Consulares y Vinculación	4
+q26	quiero traer a mi perro de otro país	1891	Autorización de ingreso al país de cadáveres y restos humanos	Dirección General de la Salud	2
+q26	quiero traer a mi perro de otro país	1472	Mudanza de Uruguayos que retornan al país Amparados en la Ley 18.250	Dirección Nacional de Aduanas	3
+q26	quiero traer a mi perro de otro país	6942	Canje de permiso de conducir extranjero de países con convenio - Canelones	Dirección General de Transito	3
+q26	quiero traer a mi perro de otro país	4695	Solicitud de ingreso con mascotas al Uruguay	Dirección General de Servicios Ganaderos	7
+q26	quiero traer a mi perro de otro país	4696	Solicitud de egreso de mascotas del Uruguay	Dirección General de Servicios Ganaderos	7
+q26	quiero traer a mi perro de otro país	2921	Solicitud de importación de productos y subproductos de origen animal	Dirección General de Servicios Ganaderos	3
+q26	quiero traer a mi perro de otro país	5598	Solicitud de exportación de productos veterinarios	Dirección General de Servicios Ganaderos	2
+q26	quiero traer a mi perro de otro país	126	Importación y/o exportación de animales en pie y subproductos de origen animal	Dirección General de Servicios Ganaderos	2
+q26	quiero traer a mi perro de otro país	4312	Solicitud de permiso CITES	Dirección Nacional de Biodiversidad y Servicios Ecosistémicos	2
+q26	quiero traer a mi perro de otro país	5590	Certificado zoosanitario de exportación de productos apícolas	Dirección General de Servicios Ganaderos	1
+q26	quiero traer a mi perro de otro país	5404	Certificados de importación, exportación de fauna	Dirección Nacional de Biodiversidad y Servicios Ecosistémicos	4
+q26	quiero traer a mi perro de otro país	148	Certificación Sanitaria de Productos Pesqueros en Tránsito por Uruguay	Dirección Nacional de Recursos Acuáticos	1
+q26	quiero traer a mi perro de otro país	6293	Castraciones caninas gratuitas - Maldonado	Intendencia	2
+q26	quiero traer a mi perro de otro país	2635	Certificado de residencia para presentación ante autoridades nacionales o extranjeras	Jefaturas Departamentales	1
+q26	quiero traer a mi perro de otro país	4182	Certificación sanitaria de productos pesqueros en tránsito con destino a la Unión Europea	Dirección Nacional de Recursos Acuáticos	2
+q26	quiero traer a mi perro de otro país	261-11	Permiso para menor de edad - Menor cuando uno o ambos padres residen en el exterior del país	Dirección Nacional de Migración	1
+q26	quiero traer a mi perro de otro país	660	Solicitud de inspección de mercadería en pasos de frontera - importación de fertilizantes	Dirección General de Servicios Agrícolas	1
+q26	quiero traer a mi perro de otro país	193	Ingreso de bienes por extranjeros para residencia permanente. 	Dirección Nacional de Aduanas	1
+q26	quiero traer a mi perro de otro país	114	Importación de productos lácteos	Dirección General de Servicios Ganaderos	3
+q26	quiero traer a mi perro de otro país	77	Certificado veterinario para ingreso y egreso de animales a campos de recría o forestados expedido por veterinario de libre ejercicio para presentar ante la DGSG	Dirección General de Servicios Ganaderos	2
+q26	quiero traer a mi perro de otro país	2847	Autorización extracción de animales de predios interdictos	Dirección General de Servicios Ganaderos	2
+q26	quiero traer a mi perro de otro país	70	Certificado veterinario para concentraciones (comercializar en remate, liquidaciones o locales de venta y exposiciones) expedido por un veterinario de libre ejercicio	Dirección General de Servicios Ganaderos	2
+q26	quiero traer a mi perro de otro país	633	Solicitud de importación de alimentos para animales	Dirección General de Servicios Agrícolas	2
+q27	tuve un bebé, cómo lo registro	6239	Orden de prelación de apellidos - Lavalleja	Intendencia	6
+q27	tuve un bebé, cómo lo registro	255	Registro y renovación del libro de registro laboral	Inspección General del Trabajo y de la Seguridad Social	3
+q27	tuve un bebé, cómo lo registro	7907-1	Registro de Donación de Alimentos - Registro de Sujetos Intermediarios	Dirección Nacional de Calidad y Evaluación Ambiental	6
+q27	tuve un bebé, cómo lo registro	6237	Ingreso de medicamentos no registrados para ciudadanos uruguayos	Dirección General de la Salud	3
+q27	tuve un bebé, cómo lo registro	118	Registro de marcas	Dirección Nacional de la Propiedad Industrial y Registro de Software	3
+q27	tuve un bebé, cómo lo registro	125	Registro de patentes	Dirección Nacional de la Propiedad Industrial y Registro de Software	3
+q27	tuve un bebé, cómo lo registro	182	Registro de publicaciones	Dirección General de Secretaría	5
+q27	tuve un bebé, cómo lo registro	202	Registro de investigadores	Biblioteca Nacional de Uruguay	3
+q27	tuve un bebé, cómo lo registro	322	Registro de Estados Contables	Auditoría Interna de la Nación	2
+q27	tuve un bebé, cómo lo registro	1465	Registro de canteras	Comando General del Ejército	2
+q27	tuve un bebé, cómo lo registro	4593	Inscripción de reconocimiento de hijos naturales 	Dirección Nacional del Registro de Estado Civil	4
+q27	tuve un bebé, cómo lo registro	6233	Inscripción de nacimiento - Lavalleja	Intendencia	3
+q27	tuve un bebé, cómo lo registro	4622	Inscripción de nacimiento	Dirección Nacional del Registro de Estado Civil	5
+q27	tuve un bebé, cómo lo registro	6233-1	Inscripción de nacimiento - Lavalleja - Inscripción en plazo	Intendencia	5
+q27	tuve un bebé, cómo lo registro	6081	Identidad y género: cambio de nombre y sexo registral	Dirección Nacional del Registro de Estado Civil	1
+q27	tuve un bebé, cómo lo registro	4332	Transferencia de vehículos - Paysandú	Intendencia	1
+q27	tuve un bebé, cómo lo registro	6933	Registro de Centros de Recolección de Leche Humana (CRLH)	Dirección General de la Salud	2
+q27	tuve un bebé, cómo lo registro	6233-2	Inscripción de nacimiento - Lavalleja - Inscripción tardía	Intendencia	4
+q27	tuve un bebé, cómo lo registro	5839	Búsqueda de orígenes	Instituto del Niño y Adolescente del Uruguay	1
+q27	tuve un bebé, cómo lo registro	4150	Registro de fertilizantes	Dirección General de Servicios Agrícolas	1
+q27	tuve un bebé, cómo lo registro	4115	Registro de Aplicaciones de Productos Fitosanitarios (RAPF)	Dirección General de Servicios Agrícolas	2
+q27	tuve un bebé, cómo lo registro	7906	Registro de Establecimientos	Dirección Nacional de Calidad y Evaluación Ambiental	1
+q27	tuve un bebé, cómo lo registro	7907-2	Registro de Donación de Alimentos - Registro de Convenios de Donación de Alimentos	Dirección Nacional de Calidad y Evaluación Ambiental	1
+q27	tuve un bebé, cómo lo registro	2453	Registro de Empresas de la Vestimenta	Dirección Nacional de Industrias	1
+q27	tuve un bebé, cómo lo registro	367	Registro como usuario del Hospital Policial	Dirección Nacional de Sanidad Policial	1
+q27	tuve un bebé, cómo lo registro	607-7	Documento Nacional de Identidad - Primera Vez - Personas con carné de acreditación diplomática	Dirección Nacional de Identificación Civil	2
+q27	tuve un bebé, cómo lo registro	3582	Asignación familiar	Banco de Previsión Social	2
+q27	tuve un bebé, cómo lo registro	607-1	Documento Nacional de Identidad - Primera Vez - Personas ciudadanas naturales uruguayas	Dirección Nacional de Identificación Civil	2
+q27	tuve un bebé, cómo lo registro	7453	Pensión para hijos de fallecidos por violencia doméstica	Banco de Previsión Social	2
+q27	tuve un bebé, cómo lo registro	607-3	Documento Nacional de Identidad - Primera Vez - Nietos o nietas de personas uruguayas (Ley Nº 19.362)	Dirección Nacional de Identificación Civil	1
+q27	tuve un bebé, cómo lo registro	1430	Alta de asignación familiar en servicio de Retiros y Pensiones de las Fuerzas Armadas	Servicio de Retiros y Pensiones de las Fuerzas Armadas	1
+q27	tuve un bebé, cómo lo registro	6701	Inscripción de nacimiento – Registro Civil - Maldonado	Intendencia	1
+q28	sufro violencia de género, dónde pido ayuda	3440	Servicio de atención a mujeres en situación de violencia basada en género	Instituto Nacional de las Mujeres	8
+q28	sufro violencia de género, dónde pido ayuda	6063	Denuncia de acoso y violencia en el trabajo	Inspección General del Trabajo y de la Seguridad Social	7
+q28	sufro violencia de género, dónde pido ayuda	7423	Renovación de ayuda extraordinaria	Banco de Previsión Social	5
+q28	sufro violencia de género, dónde pido ayuda	7453	Pensión para hijos de fallecidos por violencia doméstica	Banco de Previsión Social	7
+q28	sufro violencia de género, dónde pido ayuda	7402	Cambio de proveedor de ayuda extraordinaria	Banco de Previsión Social	3
+q28	sufro violencia de género, dónde pido ayuda	7409	Cambio de tratamiento de ayuda extraordinaria	Banco de Previsión Social	2
+q28	sufro violencia de género, dónde pido ayuda	3881	Curso avanzado de género en Defensa Nacional	Centro de Altos Estudios Nacionales	4
+q28	sufro violencia de género, dónde pido ayuda	5452	Relevamiento de información estadística con perspectiva de género	Unidad Reguladora de Servicios de Comunicaciones	4
+q28	sufro violencia de género, dónde pido ayuda	5546	Reposición de stock de suero antiofídico	Dirección General de la Salud	2
+q28	sufro violencia de género, dónde pido ayuda	7349	Registro de Proveedores de Ayudas extraordinarias – Transportistas	Banco de Previsión Social	2
+q28	sufro violencia de género, dónde pido ayuda	1559	Atención y orientación en temas de sexualidad	Administracion de los Servicios de Salud del Estado	4
+q28	sufro violencia de género, dónde pido ayuda	1434	Apoyo a la comunidad - Ministerio de Defensa Nacional (MDN)	Comando General del Ejército	2
+q28	sufro violencia de género, dónde pido ayuda	6256	"Denuncia por incumplimiento del Registro Nacional ""No llame"""	Unidad Reguladora de Servicios de Comunicaciones	2
+q28	sufro violencia de género, dónde pido ayuda	1401	Línea azul	Instituto del Niño y Adolescente del Uruguay	3
+q28	sufro violencia de género, dónde pido ayuda	4441	Tareas de apoyo a la comunidad	Comando General del Ejército	1
+q28	sufro violencia de género, dónde pido ayuda	5168	Partida de matrimonio - Florida	Intendencia	1
+q28	sufro violencia de género, dónde pido ayuda	5169	Partida de defunción - Florida	Intendencia	1
+q28	sufro violencia de género, dónde pido ayuda	573	Solicitudes referidas a personas privadas de libertad	Instituto Nacional de Rehabilitación	1
+q28	sufro violencia de género, dónde pido ayuda	7455	Pensión por delitos violentos	Banco de Previsión Social	1
+q28	sufro violencia de género, dónde pido ayuda	7448	Solicitud de ayuda extraordinaria por primera vez	Banco de Previsión Social	2
+q28	sufro violencia de género, dónde pido ayuda	1448	Repatriación de uruguayos que se encuentran en el exterior	Oficina de Asistencia al Compatriota y Servicios a la Comunidad	1
+q28	sufro violencia de género, dónde pido ayuda	3575	Pensión por sobrevivencia generada hasta el 31/7/2023	Banco de Previsión Social	1
+q28	sufro violencia de género, dónde pido ayuda	6295	Solicitud de servicio gratuito de barométrica - Lavalleja	Intendencia	1
+q28	sufro violencia de género, dónde pido ayuda	4359	Servicio de atención a personas mayores en situación de abuso y/o maltrato	Instituto Nacional de las Personas Mayores	3
+q28	sufro violencia de género, dónde pido ayuda	4356	Servicio de consulta e Intervención para personas mayores en situación de vulnerabilidad	Instituto Nacional de las Personas Mayores	3
+q28	sufro violencia de género, dónde pido ayuda	7624	Solicitud de convenio de pago de adeudos ante la DI.GE.F.E.	Dirección General de Fiscalización de Empresas	1
+q28	sufro violencia de género, dónde pido ayuda	2399	Atención a la Ciudadanía	Dirección General de Secretaría	2
+q28	sufro violencia de género, dónde pido ayuda	4636	Denuncias mineras	Dirección Nacional de Minería y Geología	2
+q28	sufro violencia de género, dónde pido ayuda	2639	Información telefónica sobre trámites de Consultas/Reclamos/Denuncias	Dirección General de Secretaría	2
+q28	sufro violencia de género, dónde pido ayuda	7276	Sanciones por llamadas maliciosas al servicio de emergencia.	Unidad Reguladora de Servicios de Comunicaciones	1
+q28	sufro violencia de género, dónde pido ayuda	6424	Denuncias de ruidos molestos - Lavalleja	Intendencia	1
+q29	quiero jubilarme, qué tengo que hacer	7327	Haberes sucesorios	Banco de Previsión Social	4
+q29	quiero jubilarme, qué tengo que hacer	7457	Haberes sucesorios	Banco de Previsión Social	5
+q29	quiero jubilarme, qué tengo que hacer	7127	Hacerse cliente BROU	Banco de la República O. del Uruguay	2
+q29	quiero jubilarme, qué tengo que hacer	5000	Haberes funcionarios fallecidos - Paysandú	Intendencia	2
+q29	quiero jubilarme, qué tengo que hacer	7370	Reintegro de haberes retenidos por la Jutep	Banco de Previsión Social	3
+q29	quiero jubilarme, qué tengo que hacer	2484	Pensión policial y haberes impagos o sucesorios	Dirección Nacional de Asistencia y Seguridad Social Policial	3
+q29	quiero jubilarme, qué tengo que hacer	7416	Constancia de actividades o negativo de actividades y haberes	Banco de Previsión Social	2
+q29	quiero jubilarme, qué tengo que hacer	5307	Cambio de motor de motos y similares - Cerro Largo	Intendencia	2
+q29	quiero jubilarme, qué tengo que hacer	7892	Solicitud de cambio de titularidad de viviendas y/o terrenos municipales - Paysandú	Intendencia	2
+q29	quiero jubilarme, qué tengo que hacer	3574	Estadías vacacionales para jubilados y pensionistas	Banco de Previsión Social	4
+q29	quiero jubilarme, qué tengo que hacer	7458	Solicitud de jubilación	Banco de Previsión Social	5
+q29	quiero jubilarme, qué tengo que hacer	7417	Prima por edad	Banco de Previsión Social	3
+q29	quiero jubilarme, qué tengo que hacer	7442	Asesoramiento y modificación de jubilación en trámite	Banco de Previsión Social	2
+q29	quiero jubilarme, qué tengo que hacer	7441	Reformas y revisiones de jubilaciones	Banco de Previsión Social	2
+q29	quiero jubilarme, qué tengo que hacer	7434	Trámites de seguridad social por convenio internacional	Banco de Previsión Social	1
+q29	quiero jubilarme, qué tengo que hacer	7343	Aportar documentación complementaria al trámite jubilatorio	Banco de Previsión Social	1
+q29	quiero jubilarme, qué tengo que hacer	7352	Mi jubilación estimada	Banco de Previsión Social	4
+q29	quiero jubilarme, qué tengo que hacer	7547	 Regularización de deudas exigibles para el acceso a prestaciones de jubilación y pensión	Banco de Previsión Social	3
+q29	quiero jubilarme, qué tengo que hacer	7342	Asesoramiento sobre jubilaciones otorgadas	Banco de Previsión Social	2
+q29	quiero jubilarme, qué tengo que hacer	7344	Consulta de estado de trámite jubilatorio	Banco de Previsión Social	1
+q29	quiero jubilarme, qué tengo que hacer	2735	Pago de haberes - retirados y pensionistas de las Fuerzas Armadas	Servicio de Retiros y Pensiones de las Fuerzas Armadas	2
+q29	quiero jubilarme, qué tengo que hacer	6935	Solicitud de visita social para jubilados o pensionistas - OSE	Obras Sanitarias del Estado	3
+q29	quiero jubilarme, qué tengo que hacer	5136	Beneficio para extranjeros jubilados que obtengan residencia permanente	Dirección Nacional de Migración	2
+q29	quiero jubilarme, qué tengo que hacer	7373	Baja de retención por servicios asistenciales de la Asociación de jubilados	Banco de Previsión Social	1
+q29	quiero jubilarme, qué tengo que hacer	7443	Asesoramiento sobre afiliación mutual	Banco de Previsión Social	1
+q29	quiero jubilarme, qué tengo que hacer	7899	Cálculo estimativo de haber de retiro para personal superior 	Servicio de Retiros y Pensiones de las Fuerzas Armadas	1
+q29	quiero jubilarme, qué tengo que hacer	7898	Cálculo estimativo de haber de retiro para personal subalterno	Servicio de Retiros y Pensiones de las Fuerzas Armadas	1
+q29	quiero jubilarme, qué tengo que hacer	6499	Ingreso de Renovación de Registro de Especialidad Farmacéutica	Dirección General de la Salud	1
+q29	quiero jubilarme, qué tengo que hacer	7336	Pensión por sobrevivencia generada desde el 1/8/2023	Banco de Previsión Social	1
+q29	quiero jubilarme, qué tengo que hacer	3577	Préstamos sociales	Banco de Previsión Social	1
+q29	quiero jubilarme, qué tengo que hacer	2754	Pensión - hijas solteras de padres de 45 años o más	Servicio de Retiros y Pensiones de las Fuerzas Armadas	1
+q29	quiero jubilarme, qué tengo que hacer	7355	Constancia de pasividad	Banco de Previsión Social	2
+q29	quiero jubilarme, qué tengo que hacer	7546	Sucesión de contribuyentes - Exclusivo BPS	Banco de Previsión Social	2
+q29	quiero jubilarme, qué tengo que hacer	7420	Oficios judiciales	Banco de Previsión Social	2
+q29	quiero jubilarme, qué tengo que hacer	3868	Constancia de historia laboral nominada	Banco de Previsión Social	2
+q29	quiero jubilarme, qué tengo que hacer	7559	Denuncias de trabajadores	Banco de Previsión Social	2
+q29	quiero jubilarme, qué tengo que hacer	7595	Solicitar certificado común	Banco de Previsión Social	1
+q29	quiero jubilarme, qué tengo que hacer	7990	Solicitud de Historia Laboral Nominada para policías	Dirección Nacional de Asistencia y Seguridad Social Policial	1
+q30	necesito demostrar que no tengo antecedentes para un trabajo	268	Asesoramiento y asistencia letrada a trabajadores que han sufrido accidentes de trabajo o padecen enfermedades profesionales	Inspección General del Trabajo y de la Seguridad Social	6
+q30	necesito demostrar que no tengo antecedentes para un trabajo	307	Certificado de antecedentes judiciales	Dirección Nacional de Policía Científica	8
+q30	necesito demostrar que no tengo antecedentes para un trabajo	2555	Solicitud de antecedentes laborales	Dirección General de Secretaría	7
+q30	necesito demostrar que no tengo antecedentes para un trabajo	7936-1	Vacaciones y Trabajo (Working Holiday) - Vacaciones y Trabajo (Working Holiday) para uruguayos	Dirección de Migración Internacional	2
+q30	necesito demostrar que no tengo antecedentes para un trabajo	4427	Certificado de antecedentes de conductor - Paysandú	Intendencia	4
+q30	necesito demostrar que no tengo antecedentes para un trabajo	4857	Búsqueda de antecedentes fonéticos de marcas	Dirección Nacional de la Propiedad Industrial y Registro de Software	3
+q30	necesito demostrar que no tengo antecedentes para un trabajo	5721	Solicitud de Antecedentes y Normas Legislativas	Junta Departamental	3
+q30	necesito demostrar que no tengo antecedentes para un trabajo	6944	Certificado de antecedentes de conductor - Canelones	Dirección General de Transito	4
+q30	necesito demostrar que no tengo antecedentes para un trabajo	6063	Denuncia de acoso y violencia en el trabajo	Inspección General del Trabajo y de la Seguridad Social	2
+q30	necesito demostrar que no tengo antecedentes para un trabajo	7524	Inactividad de cooperativa de trabajo o social	Banco de Previsión Social	2
+q30	necesito demostrar que no tengo antecedentes para un trabajo	7559	Denuncias de trabajadores	Banco de Previsión Social	2
+q30	necesito demostrar que no tengo antecedentes para un trabajo	5654	Certificado de antecedentes judiciales según Ley N°19791	Dirección Nacional de Policía Científica	6
+q30	necesito demostrar que no tengo antecedentes para un trabajo	7393	Ingreso y modificación de datos personales	Banco de Previsión Social	2
+q30	necesito demostrar que no tengo antecedentes para un trabajo	6256	"Denuncia por incumplimiento del Registro Nacional ""No llame"""	Unidad Reguladora de Servicios de Comunicaciones	1
+q30	necesito demostrar que no tengo antecedentes para un trabajo	2179	Solicitud de copia de antecedentes y planos para habilitación de local	Dirección Nacional de Bomberos	4
+q30	necesito demostrar que no tengo antecedentes para un trabajo	7990	Solicitud de Historia Laboral Nominada para policías	Dirección Nacional de Asistencia y Seguridad Social Policial	1
+q30	necesito demostrar que no tengo antecedentes para un trabajo	5379	Solicitud de autorización para trabajar durante el período de licencia de la industria de la construcción	Inspección General del Trabajo y de la Seguridad Social	1
+q30	necesito demostrar que no tengo antecedentes para un trabajo	7857	Licencia de conducir – Certificado de Antecedentes - Maldonado	Intendencia	5
+q30	necesito demostrar que no tengo antecedentes para un trabajo	4935	Solicitud de certificado de antecedentes del vehículo - Rivera	Intendencia	3
+q30	necesito demostrar que no tengo antecedentes para un trabajo	5673	Expedición de antecedentes de licencia de conducir - Rivera	Intendencia	1
+q30	necesito demostrar que no tengo antecedentes para un trabajo	7438	Reconocimiento de años trabajados	Banco de Previsión Social	3
+q30	necesito demostrar que no tengo antecedentes para un trabajo	3960	Expedición de certificado de antecedentes de licencia de conducir - San José	Intendencia	3
+q30	necesito demostrar que no tengo antecedentes para un trabajo	6937	Relevamiento de Servicios de Prevención y Salud en el Trabajo	Dirección General de la Salud	1
+q30	necesito demostrar que no tengo antecedentes para un trabajo	7340	Reconocimiento de años trabajados en Uruguay para residentes en el exterior	Banco de Previsión Social	1
+q30	necesito demostrar que no tengo antecedentes para un trabajo	249	Obtención de constancia de clausura de actividades	Inspección General del Trabajo y de la Seguridad Social	1
+q30	necesito demostrar que no tengo antecedentes para un trabajo	7458	Solicitud de jubilación	Banco de Previsión Social	1
+q30	necesito demostrar que no tengo antecedentes para un trabajo	4546	Solicitud de certificados de No objeción	Dirección General de la Salud	1
+q30	necesito demostrar que no tengo antecedentes para un trabajo	2438	Certificado de regularidad de las cooperativas	Auditoría Interna de la Nación	1
+q30	necesito demostrar que no tengo antecedentes para un trabajo	7420	Oficios judiciales	Banco de Previsión Social	1
+q31	perdí la cédula	129	Cédula catastral	Dirección Nacional de Catastro	3
+q31	perdí la cédula	127	Cédula catastral informada	Dirección Nacional de Catastro	1
+q31	perdí la cédula	2123	Exoneración del costo del trámite de Cédula de identidad	Dirección General de Secretaría	4
+q31	perdí la cédula	4678	Solicitud de pasaporte común y renovación de cédula desde el exterior	Dirección de Asuntos Consulares	1
+q31	perdí la cédula	7823	Reconstrucción de expediente electrónico - Paysandú	Intendencia	4
+q31	perdí la cédula	2198	Renovación del permiso nacional de circulación y cédula de identificación vehicular	Dirección Nacional de Transporte	1
+q31	perdí la cédula	6272	Castraciones (caninas), colocación de microchip y cédula animal - Lavalleja	Intendencia	2
+q31	perdí la cédula	1623	Denuncia de pérdidas en vía pública - OSE	Obras Sanitarias del Estado	2
+q31	perdí la cédula	5800	Desbloqueo de PIN y renovación de certificado de firma de cédula de identidad electrónica	Dirección Nacional de Identificación Civil	5
+q31	perdí la cédula	7052	Modificación de aforo de padrones inmobiliarios- Canelones	Dirección General de Recursos Financieros	1
+q31	perdí la cédula	6538-1	Documento Nacional de Identidad - Renovación - Personas ciudadanas naturales uruguayas	Dirección Nacional de Identificación Civil	6
+q31	perdí la cédula	6538-8	Documento Nacional de Identidad - Renovación - Personas con carné de acreditación diplomática	Dirección Nacional de Identificación Civil	6
+q31	perdí la cédula	6538-7	Documento Nacional de Identidad - Renovación - Personas nacidas en el exterior con carta de ciudadanía	Dirección Nacional de Identificación Civil	6
+q31	perdí la cédula	607-1	Documento Nacional de Identidad - Primera Vez - Personas ciudadanas naturales uruguayas	Dirección Nacional de Identificación Civil	2
+q31	perdí la cédula	607-7	Documento Nacional de Identidad - Primera Vez - Personas con carné de acreditación diplomática	Dirección Nacional de Identificación Civil	1
+q31	perdí la cédula	6538-9	Documento Nacional de Identidad - Renovación - Personas amparadas a la Comisión de Refugiados (CORE)	Dirección Nacional de Identificación Civil	5
+q31	perdí la cédula	6538-2	Documento Nacional de Identidad - Renovación - Personas nacionales uruguayas (Ley Nº 16.021)	Dirección Nacional de Identificación Civil	2
+q31	perdí la cédula	6538-6	Documento Nacional de Identidad - Renovación - Personas nacidas en el exterior con hoja de identidad provisoria	Dirección Nacional de Identificación Civil	2
+q31	perdí la cédula	607-8	Documento Nacional de Identidad - Primera Vez - Personas amparadas a la Comisión de Refugiados (CORE)	Dirección Nacional de Identificación Civil	1
+q31	perdí la cédula	5167-2	Certificado migratorio para renovación de documento de identidad - Refugiados	Dirección Nacional de Migración	3
+q31	perdí la cédula	6064	Solicitud de duplicado de títulos de bien funerario - PAYSANDÚ	Intendencia	3
+q31	perdí la cédula	5273	Dar de baja una moto o similar por hurto - Cerro Largo	Intendencia	3
+q31	perdí la cédula	4472	Duplicado de permiso único nacional de conducir (por extravío o hurto) - Cerro Largo	Intendencia	2
+q31	perdí la cédula	4327	Duplicado de libreta de propiedad o documento de identificación vehicular (DIV) por extravío o hurto - Paysandú	Intendencia	3
+q31	perdí la cédula	6423	Retirar vehículos incautados - Lavalleja	Intendencia	1
+q31	perdí la cédula	6016	Solicitud número de puerta - Cerro Largo	Intendencia	1
+q31	perdí la cédula	5107	Devolución de vehículo - Salto	Intendencia	1
+q31	perdí la cédula	5659	Traslado de restos a cremación - PAYSANDÚ	Intendencia	1
+q31	perdí la cédula	6271	Certificado Migratorio para emitir documento de identidad a solicitantes de refugio	Dirección Nacional de Migración	1
+q31	perdí la cédula	382	Solicitud de información sobre afectaciones mineras de un padrón	Dirección Nacional de Minería y Geología	1
+q31	perdí la cédula	5544	Extravío / deterioro de licencia	Dirección Nacional de Aviación Civil e Infraestructura Aeronáutica	2
+q31	perdí la cédula	4349	Hurtos / extravíos de recetarios	Dirección General de la Salud	1
+q31	perdí la cédula	7748	Duplicado de DIV (Libreta de Propiedad) - Maldonado	Intendencia	1
+q31	perdí la cédula	4636	Denuncias mineras	Dirección Nacional de Minería y Geología	1
+q32	me quiero hacer ciudadano uruguayo	585	Carta de ciudadanía (ciudadanía legal uruguaya)	Corte Electoral	8
+q32	me quiero hacer ciudadano uruguayo	6237	Ingreso de medicamentos no registrados para ciudadanos uruguayos	Dirección General de la Salud	3
+q32	me quiero hacer ciudadano uruguayo	6889-2	Solicitud de pasaporte - Renovación - Personas ciudadanas naturales uruguayas	Dirección Nacional de Identificación Civil	7
+q32	me quiero hacer ciudadano uruguayo	6538-1	Documento Nacional de Identidad - Renovación - Personas ciudadanas naturales uruguayas	Dirección Nacional de Identificación Civil	5
+q32	me quiero hacer ciudadano uruguayo	606-1	Solicitud de pasaporte - Primera vez - Personas Ciudadanas Naturales Uruguayas	Dirección Nacional de Identificación Civil	8
+q32	me quiero hacer ciudadano uruguayo	607-1	Documento Nacional de Identidad - Primera Vez - Personas ciudadanas naturales uruguayas	Dirección Nacional de Identificación Civil	6
+q32	me quiero hacer ciudadano uruguayo	2399	Atención a la Ciudadanía	Dirección General de Secretaría	2
+q32	me quiero hacer ciudadano uruguayo	4433	Solicitudes en el servicio de Banda Ciudadana	Unidad Reguladora de Servicios de Comunicaciones	2
+q32	me quiero hacer ciudadano uruguayo	7104	Residencia Legal con inicio en Consulados	Dirección Nacional de Migración	6
+q32	me quiero hacer ciudadano uruguayo	7327	Haberes sucesorios	Banco de Previsión Social	2
+q32	me quiero hacer ciudadano uruguayo	6537	Certificado de ciudadanía o no naturalización	Corte Electoral	4
+q32	me quiero hacer ciudadano uruguayo	2599-1	Residencia Legal - Permanente	Dirección Nacional de Migración	3
+q32	me quiero hacer ciudadano uruguayo	2599	Residencia Legal	Dirección Nacional de Migración	1
+q32	me quiero hacer ciudadano uruguayo	2599-3	Residencia Legal - Permanente por vínculo uruguayo	Dirección Nacional de Migración	2
+q32	me quiero hacer ciudadano uruguayo	2599-5	Residencia Legal - Temporaria	Dirección Nacional de Migración	1
+q32	me quiero hacer ciudadano uruguayo	2599-2	Residencia Legal - Permanente Mercosur	Dirección Nacional de Migración	1
+q32	me quiero hacer ciudadano uruguayo	1764	Uruguay Concursa	Oficina Nacional del Servicio Civil	1
+q32	me quiero hacer ciudadano uruguayo	4972	Retorno y bienvenida de uruguayos	Dirección General para Asuntos Consulares y Vinculación	2
+q32	me quiero hacer ciudadano uruguayo	8010	Uruguay Capta	Dirección Nacional de Turismo	1
+q32	me quiero hacer ciudadano uruguayo	5256	Solicitud de reunificación familiar	Dirección de Asuntos Consulares	1
+q32	me quiero hacer ciudadano uruguayo	1443	Nexo entre uruguayos detenidos en el exterior y familiares en Uruguay	Dirección de Asuntos Consulares	1
+q32	me quiero hacer ciudadano uruguayo	6889-1	Solicitud de pasaporte - Renovación - Personas nacionales uruguayas	Dirección Nacional de Identificación Civil	1
+q32	me quiero hacer ciudadano uruguayo	7936-2	Vacaciones y Trabajo (Working Holiday) - Vacaciones y Trabajo (Working Holiday) para ciudadanos extranjeros	Dirección de Migración Internacional	1
+q32	me quiero hacer ciudadano uruguayo	607-2	Documento Nacional de Identidad - Primera Vez - Personas nacionales uruguayas (Ley Nº 16.021)	Dirección Nacional de Identificación Civil	1
+q32	me quiero hacer ciudadano uruguayo	1448	Repatriación de uruguayos que se encuentran en el exterior	Oficina de Asistencia al Compatriota y Servicios a la Comunidad	1
+q32	me quiero hacer ciudadano uruguayo	6889-4	Solicitud de pasaporte - Renovación - Ciudadanos legales	Dirección Nacional de Identificación Civil	2
+q32	me quiero hacer ciudadano uruguayo	606-4	Solicitud de pasaporte - Primera vez - Ciudadanos legales	Dirección Nacional de Identificación Civil	2
+q32	me quiero hacer ciudadano uruguayo	478	Certificado de residencia. (derecho al sufragio sin obtener la ciudadanía legal)	Corte Electoral	2
+q32	me quiero hacer ciudadano uruguayo	4595	Certificado de soltería	Dirección Nacional del Registro de Estado Civil	2
+q32	me quiero hacer ciudadano uruguayo	5136	Beneficio para extranjeros jubilados que obtengan residencia permanente	Dirección Nacional de Migración	1
+q33	quiero denunciar a mi empleador porque no me paga	6552	Registro de Organizaciones de Trabajadores y de Empleadores	Dirección General de Secretaría	2
+q33	quiero denunciar a mi empleador porque no me paga	7559	Denuncias de trabajadores	Banco de Previsión Social	7
+q33	quiero denunciar a mi empleador porque no me paga	3826	Denuncias ante URSEA	Unidad Reguladora de Servicios de Energía y Agua	4
+q33	quiero denunciar a mi empleador porque no me paga	7479	Planteamiento sobre situaciones especiales de trabajo doméstico	Banco de Previsión Social	3
+q33	quiero denunciar a mi empleador porque no me paga	4208	Solicitud de registro de empleados de despachante.	Dirección Nacional de Aduanas	3
+q33	quiero denunciar a mi empleador porque no me paga	7588	Denuncias de terceras personas sobre presuntos incumplimientos	Banco de Previsión Social	3
+q33	quiero denunciar a mi empleador porque no me paga	5606	Certificado o informe de cumplimiento de la Ley 19.691	Dirección Nacional de Empleo	2
+q33	quiero denunciar a mi empleador porque no me paga	7390	Reclamos de Subsidio por desempleo	Banco de Previsión Social	5
+q33	quiero denunciar a mi empleador porque no me paga	7647	Inscribir titular de trabajo doméstico	Banco de Previsión Social	2
+q33	quiero denunciar a mi empleador porque no me paga	5307	Cambio de motor de motos y similares - Cerro Largo	Intendencia	2
+q33	quiero denunciar a mi empleador porque no me paga	7745	Realizar una Denuncia ante la Comisión de Promoción y Defensa de la Competencia	Dirección General de Secretaría	3
+q33	quiero denunciar a mi empleador porque no me paga	5145	Denuncia ante la Dirección Nacional de Telecomunicaciones	Dirección Nacional de Telecomunicaciones y Servicios de Comunicación Audiovisual	4
+q33	quiero denunciar a mi empleador porque no me paga	6680	Reclamos por incumplimiento al Decreto 353/2023	Agencia de Gobierno Electrónico y Sociedad de la Información	1
+q33	quiero denunciar a mi empleador porque no me paga	6256	"Denuncia por incumplimiento del Registro Nacional ""No llame"""	Unidad Reguladora de Servicios de Comunicaciones	2
+q33	quiero denunciar a mi empleador porque no me paga	233	Recepción de denuncias	Inspección General del Trabajo y de la Seguridad Social	6
+q33	quiero denunciar a mi empleador porque no me paga	6063	Denuncia de acoso y violencia en el trabajo	Inspección General del Trabajo y de la Seguridad Social	4
+q33	quiero denunciar a mi empleador porque no me paga	7400	Convenio de pago por cobro indebido	Banco de Previsión Social	1
+q33	quiero denunciar a mi empleador porque no me paga	6869	Denuncia de local industrial o comercial alimentario sin habilitación - Canelones	Dirección de Contralor	1
+q33	quiero denunciar a mi empleador porque no me paga	5580	Denuncia sobre atención en Salud Mental	Comisión Nacional de Contralor de la Atención en Salud Mental	2
+q33	quiero denunciar a mi empleador porque no me paga	5758-1	Presentación de denuncias ante JUTEP - Denuncia nominada	Junta de Transparencia y Ética Pública	1
+q33	quiero denunciar a mi empleador porque no me paga	5758-2	Presentación de denuncias ante JUTEP - Denuncia anónima	Junta de Transparencia y Ética Pública	2
+q33	quiero denunciar a mi empleador porque no me paga	4636	Denuncias mineras	Dirección Nacional de Minería y Geología	1
+q33	quiero denunciar a mi empleador porque no me paga	6906	Denuncias de gastos comunes impagos	Agencia Nacional de Vivienda	2
+q33	quiero denunciar a mi empleador porque no me paga	268	Asesoramiento y asistencia letrada a trabajadores que han sufrido accidentes de trabajo o padecen enfermedades profesionales	Inspección General del Trabajo y de la Seguridad Social	3
+q33	quiero denunciar a mi empleador porque no me paga	2629	Consulta, reclamo y/o denuncia en materia de defensa del consumidor	Dirección General de Secretaría	1
+q33	quiero denunciar a mi empleador porque no me paga	2240	Denuncia o queja por servicios turísticos	Dirección General de Secretaría	1
+q33	quiero denunciar a mi empleador porque no me paga	7408	Garantía de Créditos Laborales	Banco de Previsión Social	2
+q33	quiero denunciar a mi empleador porque no me paga	7381	Impagos deudor BPS	Banco de Previsión Social	2
+q33	quiero denunciar a mi empleador porque no me paga	2291	Audiencias de conciliación	Dirección Nacional de Trabajo	2
+q33	quiero denunciar a mi empleador porque no me paga	7382	Reclamos de no cobro de prestaciones	Banco de Previsión Social	2
+q33	quiero denunciar a mi empleador porque no me paga	276	Consulta laboral y salarial	Dirección Nacional de Trabajo	2
+q33	quiero denunciar a mi empleador porque no me paga	1379	Duplicado de facturas - UTE	Administración Nacional de Usinas y Trasmisiones Eléctricas	1
+q33	quiero denunciar a mi empleador porque no me paga	2538	Certificado de cumplimiento de la Ley 18.516	Inspección General del Trabajo y de la Seguridad Social	1
+q34	mi papá falleció y necesito el certificado	4785	Certificado al día de contribución - Salto	Intendencia	3
+q34	mi papá falleció y necesito el certificado	6230	Pap - Lavalleja	Intendencia	4
+q34	mi papá falleció y necesito el certificado	5000	Haberes funcionarios fallecidos - Paysandú	Intendencia	3
+q34	mi papá falleció y necesito el certificado	2488	 Ingreso de fallecidos al Panteón Policial en Montevideo	Dirección Nacional de Asistencia y Seguridad Social Policial	3
+q34	mi papá falleció y necesito el certificado	7453	Pensión para hijos de fallecidos por violencia doméstica	Banco de Previsión Social	4
+q34	mi papá falleció y necesito el certificado	4833	Solicitud de compra de certificados oficiales de transferencia de exportación (COTE)	Dirección General de Servicios Ganaderos	2
+q34	mi papá falleció y necesito el certificado	2758	Pensión - viuda o viudo de causante que falleció en actividad - de integrantes de las FFAA	Servicio de Retiros y Pensiones de las Fuerzas Armadas	3
+q34	mi papá falleció y necesito el certificado	4589	Reempadronamiento de moto y similares - Cerro Largo	Intendencia	2
+q34	mi papá falleció y necesito el certificado	2747	Pensión - viuda o viudo de causante que falleció en situación de retiro de las Fuerzas Armadas	Servicio de Retiros y Pensiones de las Fuerzas Armadas	3
+q34	mi papá falleció y necesito el certificado	4350	Reempadronamiento autos y similares - Cerro Largo	Intendencia	2
+q34	mi papá falleció y necesito el certificado	1827	Solicitud de certificado de defunción	Dirección General de la Salud	5
+q34	mi papá falleció y necesito el certificado	6064	Solicitud de duplicado de títulos de bien funerario - PAYSANDÚ	Intendencia	3
+q34	mi papá falleció y necesito el certificado	5088	Certificado de Titularidad	Dirección Nacional de Identificación Civil	2
+q34	mi papá falleció y necesito el certificado	3885	Solicitud de certificado nacido vivo	Dirección General de la Salud	1
+q34	mi papá falleció y necesito el certificado	2588	Certificado de aportes a servicio fúnebre - Servicio de retiros y pensiones de las Fuerzas Armadas	Servicio de Retiros y Pensiones de las Fuerzas Armadas	1
+q34	mi papá falleció y necesito el certificado	6283	Partida de defunción - Lavalleja	Intendencia	3
+q34	mi papá falleció y necesito el certificado	231-4	Solicitud de partidas - Defunción	Dirección Nacional del Registro de Estado Civil	3
+q34	mi papá falleció y necesito el certificado	7383	Informe de fallecimiento	Banco de Previsión Social	1
+q34	mi papá falleció y necesito el certificado	6700	Partidas de Nacimiento, Defunción y Matrimonio - Solicitud de Testimonios - Registro Civil - Maldonado	Intendencia	3
+q34	mi papá falleció y necesito el certificado	7154-2	Solicitud de cesión de permiso de taxímetro - Canelones - Por fallecimiento o incapacidad	Dirección General de Transito	1
+q34	mi papá falleció y necesito el certificado	5343	Solicitud de cremación	Dirección General de los Servicios de las Fuerzas Armadas	3
+q34	mi papá falleció y necesito el certificado	5341	Solicitud de traslado de urnas	Dirección General de los Servicios de las Fuerzas Armadas	3
+q34	mi papá falleció y necesito el certificado	5342	Solicitud de ingreso al urnario	Dirección General de los Servicios de las Fuerzas Armadas	2
+q34	mi papá falleció y necesito el certificado	261-7	Permiso para menor de edad - Menor que viaja solo, cuando uno de sus padres es fallecido	Dirección Nacional de Migración	1
+q34	mi papá falleció y necesito el certificado	1412	Certificado PYME	Dirección Nacional de Artesanías, Pequeñas y Medianas Empresas	2
+q34	mi papá falleció y necesito el certificado	482	Certificado de Avecinamiento	Corte Electoral	2
+q34	mi papá falleció y necesito el certificado	5169	Partida de defunción - Florida	Intendencia	3
+q34	mi papá falleció y necesito el certificado	4598-1	Inscripción de partidas extranjeras - Trámite para titulares y/o representantes	Dirección Nacional del Registro de Estado Civil	1
+q34	mi papá falleció y necesito el certificado	3466	Certificado de afectaciones - San José	Intendencia	1
+q34	mi papá falleció y necesito el certificado	6234	Inscripción de defunciones - Lavalleja	Intendencia	2
+q34	mi papá falleció y necesito el certificado	5026-2	Solicitud de partidas - Rivera - Partida de Defunción	Intendencia	2
+q34	mi papá falleció y necesito el certificado	4591	Inscripción de defunciones	Dirección Nacional del Registro de Estado Civil	2
+q34	mi papá falleció y necesito el certificado	6698	Inscripción de defunción – Registro Civil - Maldonado	Intendencia	2
+q34	mi papá falleció y necesito el certificado	6191-3	Inscripciones en el registro civil - Paysandú - Inscripción de Defunción	Intendencia	2
+q35	quiero estudiar en el exterior con una beca	159	Becas y oportunidades de formación en el exterior.	Dirección General de Secretaría	8
+q35	quiero estudiar en el exterior con una beca	6378	Convocatoria a Beca económica para estudiantes de Formación Docente	Dirección Nacional de Educación	8
+q35	quiero estudiar en el exterior con una beca	7695	Beca Carlos Quijano	Dirección Nacional de Educación	5
+q35	quiero estudiar en el exterior con una beca	5006	Solicitud de Fórmula 69 - 52 o Pase del Liceo Militar General Artigas	Comando General del Ejército	2
+q35	quiero estudiar en el exterior con una beca	6341	Convocatoria a integrar el Registro de evaluadores de estudios terciarios y/o reválidas de títulos obtenidos en el exterior	Dirección Nacional de Educación	4
+q35	quiero estudiar en el exterior con una beca	333	Localización de personas en el exterior	Oficina de Asistencia al Compatriota y Servicios a la Comunidad	1
+q35	quiero estudiar en el exterior con una beca	6348	Becas estudiantiles de apoyo económico y alojamiento - Florida	Intendencia	7
+q35	quiero estudiar en el exterior con una beca	6383	Solicitud beca de alojamiento hogares estudiantiles de la Intendencia de Paysandú	Intendencia	2
+q35	quiero estudiar en el exterior con una beca	617	Tramitar permiso de menor en y para el exterior	Dirección de Asuntos Consulares	1
+q35	quiero estudiar en el exterior con una beca	1448	Repatriación de uruguayos que se encuentran en el exterior	Oficina de Asistencia al Compatriota y Servicios a la Comunidad	1
+q35	quiero estudiar en el exterior con una beca	6332	Solicitud de becas para piscina - Florida	Intendencia	4
+q35	quiero estudiar en el exterior con una beca	6194	Becas hogar estudiantil para hijos de policías	Dirección Nacional de Asistencia y Seguridad Social Policial	5
+q35	quiero estudiar en el exterior con una beca	2760	Certificado Fondo de Solidaridad emitido por Servicios de Retiros y Pensiones de las Fuerzas Armadas	Servicio de Retiros y Pensiones de las Fuerzas Armadas	1
+q35	quiero estudiar en el exterior con una beca	7355	Constancia de pasividad	Banco de Previsión Social	1
+q35	quiero estudiar en el exterior con una beca	1883	Solicitud de becas para la carrera Licenciatura en Educación Física en el IUACJ	Secretaría Nacional del Deporte	3
+q35	quiero estudiar en el exterior con una beca	4451	Expedición de certificado de propiedad (o negativo) para becas - Cerro Largo	Intendencia	1
+q35	quiero estudiar en el exterior con una beca	6091-2	Solicitud de ingreso a la Escuela Naval - Oficial de la Marina Mercante y Licenciado en Sistemas Náuticos	Comando General de la Armada	2
+q35	quiero estudiar en el exterior con una beca	6091	Solicitud de ingreso a la Escuela Naval	Comando General de la Armada	1
+q35	quiero estudiar en el exterior con una beca	6091-3	Solicitud de ingreso a la Escuela Naval - Bachillerato naval	Comando General de la Armada	2
+q35	quiero estudiar en el exterior con una beca	6091-1	Solicitud de ingreso a la Escuela Naval - Oficial de la Armada Nacional y Licenciado en Sistemas Navales	Comando General de la Armada	2
+q35	quiero estudiar en el exterior con una beca	7670	Inscribir becarios de posgrado	Banco de Previsión Social	4
+q35	quiero estudiar en el exterior con una beca	1683	Red de cobros y pagos - sector público	Administracion Nacional de Correos	1
+q35	quiero estudiar en el exterior con una beca	6299	Solicitud de beca estudiantil de alojamiento en hogares estudiantiles municipales - Lavalleja	Intendencia	2
+q35	quiero estudiar en el exterior con una beca	6654	Abono Estudiantil de Transporte IDM - Maldonado	Intendencia	2
+q35	quiero estudiar en el exterior con una beca	7570	Inscripción de becarios de posgrado	Banco de Previsión Social	4
+q35	quiero estudiar en el exterior con una beca	1783	Envío y recepción de paquete estudiantil - Correo Uruguayo	Administracion Nacional de Correos	1
+q35	quiero estudiar en el exterior con una beca	330	Solicitud de certificado de calificación de empresas constructoras extranjeras (Artículo 28 Decreto 208/009) - FINEOP	Dirección General de Secretaría	1
+q35	quiero estudiar en el exterior con una beca	1633	Centro de información a la juventud	Instituto Nacional de la Juventud	1
+q35	quiero estudiar en el exterior con una beca	1441	Apostilla y/o legalización de documentos públicos uruguayos o extranjeros para que produzcan efectos en el exterior o en la República	Dirección de Asuntos Consulares	2
+q35	quiero estudiar en el exterior con una beca	4527	Legalización de títulos y documentos estudiantiles firmados por autoridades nacionales	Dirección Nacional de Educación	1
+q36	quiero castrar a mi perro gratis	5412	Registro y solicitud de carné para usuarios de perro de asistencia y perro guía	Dirección General de Secretaría	4
+q36	quiero castrar a mi perro gratis	6272	Castraciones (caninas), colocación de microchip y cédula animal - Lavalleja	Intendencia	8
+q36	quiero castrar a mi perro gratis	6293	Castraciones caninas gratuitas - Maldonado	Intendencia	8
+q36	quiero castrar a mi perro gratis	4695	Solicitud de ingreso con mascotas al Uruguay	Dirección General de Servicios Ganaderos	3
+q36	quiero castrar a mi perro gratis	6347	Servicio de barométrica gratuita - Florida	Intendencia	3
+q36	quiero castrar a mi perro gratis	6693	Servicio fúnebre gratuito - Canelones	Dirección General de Administración	5
+q36	quiero castrar a mi perro gratis	7930	Biblioteca Pública José Pedro Varela - Dirección de Cultura Paysandú	Intendencia	1
+q36	quiero castrar a mi perro gratis	5307	Cambio de motor de motos y similares - Cerro Largo	Intendencia	3
+q36	quiero castrar a mi perro gratis	7892	Solicitud de cambio de titularidad de viviendas y/o terrenos municipales - Paysandú	Intendencia	2
+q36	quiero castrar a mi perro gratis	6905	Contrato de arrendamiento para regularización de vivienda	Agencia Nacional de Vivienda	1
+q36	quiero castrar a mi perro gratis	4696	Solicitud de egreso de mascotas del Uruguay	Dirección General de Servicios Ganaderos	4
+q36	quiero castrar a mi perro gratis	1834	Seguimiento de la persona mordida, prevención de la rabia	Dirección General de la Salud	1
+q36	quiero castrar a mi perro gratis	77	Certificado veterinario para ingreso y egreso de animales a campos de recría o forestados expedido por veterinario de libre ejercicio para presentar ante la DGSG	Dirección General de Servicios Ganaderos	3
+q36	quiero castrar a mi perro gratis	636	Registro de veterinarios de libre ejercicio en sanidad animal	Dirección General de Servicios Ganaderos	3
+q36	quiero castrar a mi perro gratis	71	Certificado veterinario para despacho de tropa expedido por un veterinario de libre ejercicio para presentar ante la DGSG	Dirección General de Servicios Ganaderos	2
+q36	quiero castrar a mi perro gratis	2876	Solicitud de acreditación por parte de veterinarios de libre ejercicio	Dirección General de Servicios Ganaderos	2
+q36	quiero castrar a mi perro gratis	70	Certificado veterinario para concentraciones (comercializar en remate, liquidaciones o locales de venta y exposiciones) expedido por un veterinario de libre ejercicio	Dirección General de Servicios Ganaderos	2
+q36	quiero castrar a mi perro gratis	7994	Bajar Usuario Personal	Banco de Previsión Social	1
+q36	quiero castrar a mi perro gratis	5598	Solicitud de exportación de productos veterinarios	Dirección General de Servicios Ganaderos	1
+q36	quiero castrar a mi perro gratis	6546-1	Pase libre en el transporte departamental de pasajeros en situación de discapacidad - Florida - Menores de 15 años	Intendencia	3
+q36	quiero castrar a mi perro gratis	169	Solicitud de semillas de peces	Dirección Nacional de Recursos Acuáticos	1
+q36	quiero castrar a mi perro gratis	6675	Descarga de Constancia de Firmas Extranjeras	Dirección General de Secretaría	2
+q36	quiero castrar a mi perro gratis	6295	Solicitud de servicio gratuito de barométrica - Lavalleja	Intendencia	4
+q36	quiero castrar a mi perro gratis	2075	Rescisiones parciales de contratos de alquiler relacionados con el Servicio de Garantía de Alquileres (SGA)	Contaduría General de la Nación	1
+q36	quiero castrar a mi perro gratis	5569	Consulta de certificado Pyme	Dirección Nacional de Artesanías, Pequeñas y Medianas Empresas	1
+q36	quiero castrar a mi perro gratis	7896	Solicitud de información de salidas fiscales	Agencia Nacional de Vivienda	1
+q36	quiero castrar a mi perro gratis	4312	Solicitud de permiso CITES	Dirección Nacional de Biodiversidad y Servicios Ecosistémicos	1
+q36	quiero castrar a mi perro gratis	6732	Habilitación de criaderos de cerdos - Canelones	Dirección de Contralor	2
+q36	quiero castrar a mi perro gratis	6726	Alquiler de equinos - Canelones	Dirección de Contralor	2
+q36	quiero castrar a mi perro gratis	4728	Denuncia de situaciones que infrinjan normas relativas al bienestar animal y a la tenencia responsable de animales	Dirección General de Secretaría	2
+q36	quiero castrar a mi perro gratis	5588	Recolección de residuos, podas y restos de pasto - PAYSANDÚ	Intendencia	2
+q36	quiero castrar a mi perro gratis	4726	Notificación de la realización de espectáculos públicos con participación de animales	Dirección General de Secretaría	1

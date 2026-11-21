@@ -1,0 +1,322 @@
+{
+  "solicitud de pasaporte": {
+    "consultas": [
+      "Pasaporte común - Solicitud",
+      "Pasaporte primera vez",
+      "Pasaporte - Renovación"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "certificado de antecedentes judiciales": {
+    "consultas": [
+      "Certificado de antecedentes judiciales",
+      "Certificado de buena conducta",
+      "Apostilla y/o legalización de documentos"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "registro de marcas": {
+    "consultas": [
+      "Registro de marcas",
+      "Solicitud de registro de marca",
+      "Renovación de registro de marca"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "asignación familiar": {
+    "consultas": [
+      "Asignaciones familiares",
+      "Asignación familiar Plan de Equidad",
+      "Asignación familiar BPS"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "inscripción de nacimiento": {
+    "consultas": [
+      "Inscripción de nacimiento",
+      "Partida de nacimiento",
+      "Documento Nacional de Identidad primera vez"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "credencial cívica primera vez": {
+    "consultas": [
+      "Inscripción cívica primera vez",
+      "Credencial cívica - Inscripción",
+      "Credencial cívica - Duplicado"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "renovar cedula": {
+    "consultas": [
+      "Documento Nacional de Identidad - Renovación",
+      "Cédula de identidad renovación"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "sacar la libreta de conducir": {
+    "consultas": [
+      "Libreta de conducir primera vez",
+      "Libreta de conducir renovación"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "carnet de salud": {
+    "consultas": [
+      "Carné de salud",
+      "Carné de salud básico laboral",
+      "Carné de salud renovación"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "certificado de buena conducta": {
+    "consultas": [
+      "Certificado de antecedentes judiciales",
+      "Certificado de antecedentes judiciales apostillado"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "seguro de paro": {
+    "consultas": [
+      "Subsidio por desempleo por despido",
+      "Subsidio por desempleo",
+      "Subsidio por desempleo por suspensión"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "papeles para casarme": {
+    "consultas": [
+      "Matrimonio civil - Reserva de fecha",
+      "Certificado de soltería",
+      "Partida de nacimiento"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "abrir una empresa unipersonal": {
+    "consultas": [
+      "Inscripción de empresa unipersonal",
+      "Inscripción de empresas en BPS y DGI",
+      "Empresa en el Día"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "legalizar documentos para usar afuera": {
+    "consultas": [
+      "Apostilla y/o legalización de documentos",
+      "Legalización de documentos para el exterior",
+      "Apostilla de documentos públicos"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "BPS jubilación": {
+    "consultas": [
+      "Solicitud de jubilación BPS",
+      "Jubilación común BPS",
+      "Historia laboral BPS"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "DGI monotributo": {
+    "consultas": [
+      "Inscripción monotributo DGI",
+      "Monotributo BPS inscripción",
+      "Monotributo social MIDES"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "MIDES tarjeta uruguay social": {
+    "consultas": [
+      "Tarjeta Uruguay Social MIDES",
+      "Solicitud Tarjeta Uruguay Social",
+      "Asignación familiar Plan de Equidad"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "UTE exoneración": {
+    "consultas": [
+      "Exoneración tarifa UTE",
+      "Tarifa social UTE",
+      "Bonificación consumo energía eléctrica UTE"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "pasaprote": {
+    "consultas": [
+      "Pasaporte - Solicitud",
+      "Pasaporte - Renovación",
+      "Documento Nacional de Identidad - Renovación"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "jubilasion": {
+    "consultas": [
+      "Solicitud de jubilación",
+      "Jubilación BPS simulación",
+      "Pensión por vejez"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "apostiya": {
+    "consultas": [
+      "Apostilla y/o legalización de documentos",
+      "Apostilla de documentos públicos",
+      "Legalización de documentos extranjeros"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "partida de nasimiento": {
+    "consultas": [
+      "Partida de nacimiento",
+      "Certificado de nacimiento",
+      "Inscripción de nacimiento"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "cedla de identidad": {
+    "consultas": [
+      "Documento Nacional de Identidad",
+      "Documento Nacional de Identidad - Renovación",
+      "Documento Nacional de Identidad primera vez"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "me quedé sin trabajo, qué puedo cobrar": {
+    "consultas": [
+      "Subsidio por desempleo por despido",
+      "Subsidio por desempleo",
+      "Prestaciones BPS desempleo"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "quiero viajar con mi hijo menor al exterior": {
+    "consultas": [
+      "Permiso de viaje para menores",
+      "Autorización de viaje de menores al exterior",
+      "Pasaporte para menores"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "quiero traer a mi perro de otro país": {
+    "consultas": [
+      "Importación de mascotas",
+      "Certificado sanitario para ingreso de animales de compañía",
+      "Ingreso de perros y gatos al país"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "tuve un bebé, cómo lo registro": {
+    "consultas": [
+      "Inscripción de nacimiento",
+      "Documento Nacional de Identidad - Primera vez",
+      "Asignación familiar BPS"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "sufro violencia de género, dónde pido ayuda": {
+    "consultas": [
+      "Atención a mujeres en situación de violencia basada en género",
+      "Denuncia de violencia doméstica",
+      "Servicio telefónico violencia doméstica"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "quiero jubilarme, qué tengo que hacer": {
+    "consultas": [
+      "Solicitud de jubilación",
+      "Jubilación común BPS",
+      "Historia laboral BPS"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "necesito demostrar que no tengo antecedentes para un trabajo": {
+    "consultas": [
+      "Certificado de antecedentes judiciales",
+      "Certificado de buena conducta"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "perdí la cédula": {
+    "consultas": [
+      "Documento Nacional de Identidad - Renovación",
+      "Denuncia de extravío de documento",
+      "Cédula de identidad duplicado por pérdida"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "me quiero hacer ciudadano uruguayo": {
+    "consultas": [
+      "Ciudadanía legal",
+      "Carta de ciudadanía legal",
+      "Residencia permanente"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "quiero denunciar a mi empleador porque no me paga": {
+    "consultas": [
+      "Denuncia laboral ante Inspección General del Trabajo",
+      "Reclamo de salarios impagos MTSS",
+      "Audiencia de conciliación laboral"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "mi papá falleció y necesito el certificado": {
+    "consultas": [
+      "Certificado de defunción",
+      "Partida de defunción",
+      "Inscripción de defunción"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "quiero estudiar en el exterior con una beca": {
+    "consultas": [
+      "Becas para estudios en el exterior",
+      "Postulación a becas internacionales",
+      "Apostilla y/o legalización de documentos"
+    ],
+    "canal": null,
+    "gratuito": null
+  },
+  "quiero castrar a mi perro gratis": {
+    "consultas": [
+      "Castración de perros gratuita",
+      "Esterilización de mascotas",
+      "Castración de animales de compañía"
+    ],
+    "canal": null,
+    "gratuito": true
+  }
+}

@@ -1,0 +1,37 @@
+qid	categoria	consulta
+q01	exacta	solicitud de pasaporte
+q02	exacta	certificado de antecedentes judiciales
+q03	exacta	registro de marcas
+q04	exacta	asignación familiar
+q05	exacta	inscripción de nacimiento
+q06	exacta	credencial cívica primera vez
+q07	coloquial	renovar cedula
+q08	coloquial	sacar la libreta de conducir
+q09	coloquial	carnet de salud
+q10	coloquial	certificado de buena conducta
+q11	coloquial	seguro de paro
+q12	coloquial	papeles para casarme
+q13	coloquial	abrir una empresa unipersonal
+q14	coloquial	legalizar documentos para usar afuera
+q15	sigla	BPS jubilación
+q16	sigla	DGI monotributo
+q17	sigla	MIDES tarjeta uruguay social
+q18	sigla	UTE exoneración
+q19	tipeo	pasaprote
+q20	tipeo	jubilasion
+q21	tipeo	apostiya
+q22	tipeo	partida de nasimiento
+q23	tipeo	cedla de identidad
+q24	natural	me quedé sin trabajo, qué puedo cobrar
+q25	natural	quiero viajar con mi hijo menor al exterior
+q26	natural	quiero traer a mi perro de otro país
+q27	natural	tuve un bebé, cómo lo registro
+q28	natural	sufro violencia de género, dónde pido ayuda
+q29	natural	quiero jubilarme, qué tengo que hacer
+q30	natural	necesito demostrar que no tengo antecedentes para un trabajo
+q31	natural	perdí la cédula
+q32	natural	me quiero hacer ciudadano uruguayo
+q33	natural	quiero denunciar a mi empleador porque no me paga
+q34	natural	mi papá falleció y necesito el certificado
+q35	natural	quiero estudiar en el exterior con una beca
+q36	natural	quiero castrar a mi perro gratis
