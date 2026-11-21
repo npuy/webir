@@ -22,6 +22,8 @@ from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
+from src import llm
+
 ES_URL = "http://localhost:9200"
 ES_INDEX = "tramites"
 LOCAL_INDEX = Path("data/index.pkl")
@@ -111,73 +113,103 @@ def _hit_to_result(h: dict, score: float | None = None) -> dict:
     }
 
 
-def _query_con_demote_casuistica(q: str) -> dict:
-    """multi_match con las páginas índice de casuística demoradas.
+def _demote_casuistica(query: dict) -> dict:
+    """Envuelve la consulta demorando las páginas índice de casuística.
 
     Son listas de sub-casos, no trámites: suman ruido arriba del ranking
     por tener nombres genéricos ("Solicitud de pasaporte - Renovación").
     """
     return {
         "boosting": {
-            "positive": {
-                "multi_match": {
-                    "query": q,
-                    "fields": SEARCH_FIELDS,
-                    "type": "best_fields",
-                    "operator": "or",
-                    "fuzziness": "AUTO",
-                    "prefix_length": 2,
-                }
-            },
+            "positive": query,
             "negative": {"term": {"es_casuistica": True}},
             "negative_boost": 0.15,
         }
     }
 
 
-def es_search(q: str, top_k: int, organismo: str | None, canal: str | None,
-              gratuito: bool | None) -> dict:
-    filters = _filters(organismo, canal, gratuito)
+def _bm25_body(q: str, size: int, filters: list[dict],
+               synonyms: bool = True,
+               post_filter: list[dict] | None = None) -> dict:
+    """multi_match ponderado + highlighting + facetas.
 
-    body = {
-        "size": top_k,
-        "query": {
-            "bool": {
-                "must": _query_con_demote_casuistica(q),
-                "filter": filters,
-            }
-        },
-        "highlight": {
-            "fields": {"ques_es": {"fragment_size": 200, "number_of_fragments": 1}},
-            "pre_tags": ["<mark>"],
-            "post_tags": ["</mark>"],
-        },
+    Consulta vacía = todo el catálogo (para navegar sólo con filtros).
+    synonyms=False fuerza el analyzer sin tesauro (para evaluar su aporte).
+    post_filter filtra los hits pero no las facetas, así la lista de
+    organismos no se reduce al elegido.
+    """
+    body: dict = {
+        "size": size,
         "aggs": {
             "organismos": {
-                "terms": {"field": "institucion_padre_organizacional_nombre.keyword", "size": 15}
+                "terms": {"field": "institucion_padre_organizacional_nombre.keyword", "size": 80}
             },
             "canales": {"terms": {"field": "canales_de_atencion", "size": 5}},
         },
     }
+    if q.strip():
+        multi_match = {
+            "query": q,
+            "fields": SEARCH_FIELDS,
+            "type": "best_fields",
+            "operator": "or",
+            "fuzziness": "AUTO",
+            "prefix_length": 2,
+        }
+        if not synonyms:
+            multi_match["analyzer"] = "spanish_custom"
+        body["query"] = {"bool": {
+            "must": _demote_casuistica({"multi_match": multi_match}),
+            "filter": filters,
+        }}
+        body["highlight"] = {
+            "fields": {"ques_es": {"fragment_size": 200, "number_of_fragments": 1}},
+            "pre_tags": ["<mark>"],
+            "post_tags": ["</mark>"],
+        }
+    else:
+        body["query"] = {"bool": {"must": {"match_all": {}}, "filter": filters}}
+    if post_filter:
+        body["post_filter"] = {"bool": {"filter": post_filter}}
+    return body
+
+
+# Las intendencias figuran como organismo padre con el nombre del
+# departamento en mayúsculas ("FLORIDA", "SAN JOSE").
+DEPARTAMENTOS = {
+    "ARTIGAS", "CANELONES", "CERRO LARGO", "COLONIA", "DURAZNO", "FLORES",
+    "FLORIDA", "LAVALLEJA", "MALDONADO", "MONTEVIDEO", "PAYSANDU",
+    "RIO NEGRO", "RIVERA", "ROCHA", "SALTO", "SAN JOSE", "SORIANO",
+    "TACUAREMBO", "TREINTA Y TRES",
+}
+
+
+def _facets(aggs: dict) -> dict:
+    buckets = [
+        {"value": b["key"], "count": b["doc_count"]}
+        for b in aggs.get("organismos", {}).get("buckets", [])
+        if b["key"].strip()
+    ]
+    return {
+        "departamentos": [b for b in buckets if b["value"] in DEPARTAMENTOS],
+        "organismos": [b for b in buckets if b["value"] not in DEPARTAMENTOS],
+        "canales": [
+            {"value": b["key"], "count": b["doc_count"]}
+            for b in aggs.get("canales", {}).get("buckets", [])
+        ],
+    }
+
+
+def es_search(q: str, top_k: int, organismo: str | None, canal: str | None,
+              gratuito: bool | None, synonyms: bool = True) -> dict:
+    body = _bm25_body(q, top_k, _filters(None, canal, gratuito), synonyms,
+                      post_filter=_filters(organismo, None, None))
     res = es.search(index=ES_INDEX, body=body)
-
-    hits = [_hit_to_result(h) for h in res["hits"]["hits"]]
-
-    aggs = res.get("aggregations", {})
     return {
         "backend": "elasticsearch",
         "total": res["hits"]["total"]["value"],
-        "results": hits,
-        "facets": {
-            "organismos": [
-                {"value": b["key"], "count": b["doc_count"]}
-                for b in aggs.get("organismos", {}).get("buckets", [])
-            ],
-            "canales": [
-                {"value": b["key"], "count": b["doc_count"]}
-                for b in aggs.get("canales", {}).get("buckets", [])
-            ],
-        },
+        "results": [_hit_to_result(h) for h in res["hits"]["hits"]],
+        "facets": _facets(res.get("aggregations", {})),
     }
 
 
@@ -199,39 +231,28 @@ def knn_search(q: str, top_k: int, filters: list[dict]) -> list[dict]:
     return res["hits"]["hits"]
 
 
-def rrf_fuse(rankings: list[list[dict]], k: int = RRF_K) -> list[tuple[str, float]]:
+def rrf_fuse(rankings: list[list[dict]], k: int = RRF_K,
+             key: str = "_id") -> list[tuple[str, float]]:
     """Reciprocal Rank Fusion: score(d) = Σ 1/(k + rank(d))."""
     scores: dict[str, float] = {}
     for ranking in rankings:
         for rank, hit in enumerate(ranking, 1):
-            scores[hit["_id"]] = scores.get(hit["_id"], 0.0) + 1.0 / (k + rank)
+            scores[hit[key]] = scores.get(hit[key], 0.0) + 1.0 / (k + rank)
     return sorted(scores.items(), key=lambda x: x[1], reverse=True)
 
 
 def hybrid_search(q: str, top_k: int, organismo: str | None,
-                  canal: str | None, gratuito: bool | None) -> dict:
+                  canal: str | None, gratuito: bool | None,
+                  synonyms: bool = True) -> dict:
     """BM25 + kNN fusionados con RRF."""
-    filters = _filters(organismo, canal, gratuito)
+    base = _filters(None, canal, gratuito)
+    org = _filters(organismo, None, None)
     fetch_k = top_k * 5
 
-    bm25_res = es.search(index=ES_INDEX, body={
-        "size": fetch_k,
-        "query": {"bool": {
-            "must": _query_con_demote_casuistica(q),
-            "filter": filters,
-        }},
-        "highlight": {
-            "fields": {"ques_es": {"fragment_size": 200, "number_of_fragments": 1}},
-            "pre_tags": ["<mark>"], "post_tags": ["</mark>"],
-        },
-        "aggs": {
-            "organismos": {"terms": {
-                "field": "institucion_padre_organizacional_nombre.keyword", "size": 15}},
-            "canales": {"terms": {"field": "canales_de_atencion", "size": 5}},
-        },
-    })
+    bm25_res = es.search(index=ES_INDEX, body=_bm25_body(
+        q, fetch_k, base, synonyms, post_filter=org))
     bm25_hits = bm25_res["hits"]["hits"]
-    knn_hits = knn_search(q, fetch_k, filters)
+    knn_hits = knn_search(q, fetch_k, base + org)
 
     fused = rrf_fuse([bm25_hits, knn_hits])
     by_id = {h["_id"]: h for h in bm25_hits + knn_hits}
@@ -242,21 +263,39 @@ def hybrid_search(q: str, top_k: int, organismo: str | None,
         if doc_id in by_id
     ]
 
-    aggs = bm25_res.get("aggregations", {})
     return {
         "backend": "hybrid",
         "total": bm25_res["hits"]["total"]["value"],
         "results": hits,
-        "facets": {
-            "organismos": [
-                {"value": b["key"], "count": b["doc_count"]}
-                for b in aggs.get("organismos", {}).get("buckets", [])
-            ],
-            "canales": [
-                {"value": b["key"], "count": b["doc_count"]}
-                for b in aggs.get("canales", {}).get("buckets", [])
-            ],
-        },
+        "facets": _facets(bm25_res.get("aggregations", {})),
+    }
+
+
+# ---------------------------------------------- reescritura de consultas (LLM)
+
+def rewrite_search(q: str, top_k: int, plan: "llm.QueryPlan",
+                   include_original: bool = True) -> dict:
+    """Búsqueda híbrida por cada consulta reescrita, fusionadas con RRF.
+
+    La consulta original se incluye en la fusión para no depender sólo
+    de la reescritura (si el LLM se equivoca, la original sigue aportando).
+    """
+    queries = ([q] if include_original else []) + plan.consultas
+    searches = [
+        hybrid_search(qq, top_k, None, plan.canal, plan.gratuito)
+        for qq in queries
+    ]
+    rankings = [s["results"] for s in searches]
+    by_id = {r["id"]: r for ranking in rankings for r in ranking}
+    results = [
+        {**by_id[doc_id], "score": round(score, 4)}
+        for doc_id, score in rrf_fuse(rankings, key="id")[:top_k]
+    ]
+    return {
+        **searches[0],
+        "backend": "hybrid+rewrite",
+        "results": results,
+        "consultas": plan.consultas,
     }
 
 
@@ -333,7 +372,7 @@ def bm25_search(q: str, top_k: int, organismo: str | None, canal: str | None,
         "backend": "bm25",
         "total": len(hits),
         "results": hits,
-        "facets": {"organismos": [], "canales": []},
+        "facets": {"departamentos": [], "organismos": [], "canales": []},
     }
 
 
@@ -341,21 +380,27 @@ def bm25_search(q: str, top_k: int, organismo: str | None, canal: str | None,
 
 @app.get("/api/health")
 def health():
-    return {"status": "ok", "backend": app.state.backend}
+    return {"status": "ok", "backend": app.state.backend,
+            "llm": llm.MODEL if llm.available() else None}
 
 
 @app.get("/api/search")
 def search_endpoint(
-    q: str = Query(..., min_length=1),
-    top_k: int = Query(10, ge=1, le=50),
+    q: str = "",
+    top_k: int = Query(10, ge=0, le=50),
     organismo: str | None = None,
     canal: str | None = None,
     gratuito: bool | None = None,
     hybrid: bool = False,
     do_rerank: bool = False,
 ):
+    if not q.strip():
+        # Sin texto: navegar el catálogo por filtros (y obtener facetas).
+        do_rerank = False
     if app.state.backend == "elasticsearch":
-        if hybrid:
+        if not q.strip():
+            data = es_search("", top_k, organismo, canal, gratuito)
+        elif hybrid:
             data = hybrid_search(q, top_k if not do_rerank else top_k * 3,
                                  organismo, canal, gratuito)
         else:
@@ -376,8 +421,9 @@ class ChatRequest(BaseModel):
     top_k: int = 5
 
 
-PROMPT_TEMPLATE = """Sos un asistente que ayuda a ciudadanos uruguayos a encontrar \
-trámites en el catálogo del Estado.
+PROMPT_TEMPLATE = """Sos el asistente de un buscador de trámites del Estado \
+uruguayo. Tu texto se muestra como respuesta única a una búsqueda: no es \
+una conversación y el usuario no puede contestarte.
 
 PASO 1 — Evaluá: ¿alguno de los trámites listados responde DIRECTAMENTE \
 lo que pregunta el usuario? Ojo: que un trámite mencione el tema no \
@@ -385,13 +431,21 @@ significa que responda la pregunta.
 
 PASO 2 — Respondé según el caso:
 - Si hay un trámite que responde directamente: explicá qué es, qué \
-necesita y cómo se hace, citando [nombre del trámite] (organismo).
+necesita y cómo se hace.
 - Si NO hay ninguno que responda directamente: empezá tu respuesta con \
 "No encontré un trámite específico para eso en el catálogo" y después \
 mencioná los trámites relacionados aclarando que son opciones \
 relacionadas, NO requisitos.
+- Si la respuesta depende de la situación del usuario (destino, edad, \
+etc.), indicá qué trámite corresponde en cada caso.
 - NUNCA uses conocimiento externo ni afirmes que algo es obligatorio si \
 el documento no lo dice explícitamente.
+
+Formato (Markdown):
+- Citá cada trámite como enlace a su URL: [Nombre del trámite](URL) \
+(organismo). No repitas la URL suelta.
+- Terminá con la información del último trámite: sin preguntas al \
+usuario, sin ofrecer más ayuda y sin pedirle más datos.
 
 Trámites recuperados (pueden no ser relevantes):
 {context}
@@ -433,16 +487,22 @@ def _ollama_generate(prompt: str) -> str | None:
 
 @app.post("/api/chat")
 def chat_endpoint(req: ChatRequest):
-    """RAG: recupera trámites relevantes y genera respuesta con LLM local."""
+    """RAG: reescribe la pregunta con el LLM, recupera trámites y genera
+    la respuesta (Claude → Ollama local → extractiva)."""
+    plan = llm.rewrite_query(req.message)
     if app.state.backend == "elasticsearch":
         try:
-            data = hybrid_search(req.message, req.top_k, None, None, None)
+            if plan:
+                data = rewrite_search(req.message, req.top_k, plan)
+            else:
+                data = hybrid_search(req.message, req.top_k, None, None, None)
         except Exception:
             data = es_search(req.message, req.top_k, None, None, None)
     else:
         data = bm25_search(req.message, req.top_k, None, None, None)
 
     results = data["results"]
+    consultas = data.get("consultas", [])
     sources = [
         {"nombre": r["nombre"], "organismo": r["organismo"], "url": r["url"]}
         for r in results
@@ -451,21 +511,23 @@ def chat_endpoint(req: ChatRequest):
         return {
             "answer": "No encontré trámites relacionados con tu consulta.",
             "sources": [],
+            "consultas": consultas,
             "generated": False,
         }
 
     prompt = PROMPT_TEMPLATE.format(
         context=_build_context(results), question=req.message)
-    answer = _ollama_generate(prompt)
+    answer = llm.generate(prompt) or _ollama_generate(prompt)
     generated = answer is not None
 
     if answer is None:
         # Fallback extractivo: descripción del mejor resultado.
         top = results[0]
         answer = (
-            f"El trámite más relacionado es **{top['nombre']}** "
+            f"El trámite más relacionado es **[{top['nombre']}]({top['url']})** "
             f"({top['organismo']}). {top['descripcion'][:300]} "
             f"Revisá las fuentes para más opciones. "
-            f"(Respuesta extractiva — Ollama no disponible)"
+            f"(Respuesta extractiva — LLM no disponible)"
         )
-    return {"answer": answer, "sources": sources, "generated": generated}
+    return {"answer": answer, "sources": sources, "consultas": consultas,
+            "generated": generated}
